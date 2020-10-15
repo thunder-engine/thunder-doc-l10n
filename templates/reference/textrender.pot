@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/textrender.rst:3
+msgid "TextRender Class"
+msgstr ""
+
+#: ../../reference/textrender.rst:5
+msgid "Inherited: :ref:`Renderable<api_Renderable>`"
+msgstr ""
+
+#: ../../reference/textrender.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/textrender.rst:11
+msgid "Draws a text for the 2D and 3D graphics."
+msgstr ""
+
+#: ../../reference/textrender.rst:13
+msgid "The TextRender component allows you to display a text in both 2D and 3D scenes."
+msgstr ""
+
+#: ../../reference/textrender.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/textrender.rst:22
+msgid ":ref:`TextRender<api_TextRender_TextRender>` ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:24
+msgid ":ref:`~TextRender<api_TextRender_~TextRender>` ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:26
+#: ../../reference/textrender.rst:34
+#: ../../reference/textrender.rst:58
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/textrender.rst:26
+msgid ":ref:`align<api_TextRender_align>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:28
+msgid ":ref:`Vector2<api_Vector2>`"
+msgstr ""
+
+#: ../../reference/textrender.rst:28
+msgid ":ref:`boundaries<api_TextRender_boundaries>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:30
+msgid ":ref:`Vector4<api_Vector4>`"
+msgstr ""
+
+#: ../../reference/textrender.rst:30
+msgid ":ref:`color<api_TextRender_color>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:32
+msgid ":ref:`Font<api_Font>` *"
+msgstr ""
+
+#: ../../reference/textrender.rst:32
+msgid ":ref:`font<api_TextRender_font>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:34
+msgid ":ref:`fontSize<api_TextRender_fontSize>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:36
+#: ../../reference/textrender.rst:60
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/textrender.rst:36
+msgid ":ref:`kerning<api_TextRender_kerning>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:38
+msgid ":ref:`Material<api_Material>` *"
+msgstr ""
+
+#: ../../reference/textrender.rst:38
+msgid ":ref:`material<api_TextRender_material>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:40
+#: ../../reference/textrender.rst:42
+#: ../../reference/textrender.rst:44
+#: ../../reference/textrender.rst:46
+#: ../../reference/textrender.rst:48
+#: ../../reference/textrender.rst:50
+#: ../../reference/textrender.rst:52
+#: ../../reference/textrender.rst:54
+#: ../../reference/textrender.rst:56
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/textrender.rst:40
+msgid ":ref:`setAlign<api_TextRender_setAlign>` (int  alignment)"
+msgstr ""
+
+#: ../../reference/textrender.rst:42
+msgid ":ref:`setBoundaries<api_TextRender_setBoundaries>` (const Vector2 & boundaries)"
+msgstr ""
+
+#: ../../reference/textrender.rst:44
+msgid ":ref:`setColor<api_TextRender_setColor>` (const Vector4 & color)"
+msgstr ""
+
+#: ../../reference/textrender.rst:46
+msgid ":ref:`setFont<api_TextRender_setFont>` (Font * font)"
+msgstr ""
+
+#: ../../reference/textrender.rst:48
+msgid ":ref:`setFontSize<api_TextRender_setFontSize>` (int  size)"
+msgstr ""
+
+#: ../../reference/textrender.rst:50
+msgid ":ref:`setKerning<api_TextRender_setKerning>` (const bool  kerning)"
+msgstr ""
+
+#: ../../reference/textrender.rst:52
+msgid ":ref:`setMaterial<api_TextRender_setMaterial>` (Material * material)"
+msgstr ""
+
+#: ../../reference/textrender.rst:54
+msgid ":ref:`setText<api_TextRender_setText>` (const int & text)"
+msgstr ""
+
+#: ../../reference/textrender.rst:56
+msgid ":ref:`setWrap<api_TextRender_setWrap>` (bool  wrap)"
+msgstr ""
+
+#: ../../reference/textrender.rst:58
+msgid ":ref:`text<api_TextRender_text>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:60
+msgid ":ref:`wrap<api_TextRender_wrap>` () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:65
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/textrender.rst:68
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` *"
+msgstr ""
+
+#: ../../reference/textrender.rst:68
+msgid ":ref:`methods<api_TextRender_methods>` ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:70
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` *"
+msgstr ""
+
+#: ../../reference/textrender.rst:70
+msgid ":ref:`properties<api_TextRender_properties>` ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:75
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/textrender.rst:79
+msgid "**TextRender::TextRender** ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:81
+msgid "Default constructs an instance of TextRender."
+msgstr ""
+
+#: ../../reference/textrender.rst:87
+msgid "**TextRender::~TextRender** ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:89
+msgid "Destroys the instance of TextRender. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/textrender.rst:95
+msgid ":ref:`int<api_int>`  **TextRender::align** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:97
+msgid "Returns text alignment policy."
+msgstr ""
+
+#: ../../reference/textrender.rst:99
+msgid "**See also** setAlign()."
+msgstr ""
+
+#: ../../reference/textrender.rst:105
+msgid ":ref:`Vector2<api_Vector2>`  **TextRender::boundaries** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:107
+msgid "Returns the boundaries of the text area. This parameter is involved in Word Wrap calculations."
+msgstr ""
+
+#: ../../reference/textrender.rst:109
+msgid "**See also** setBoundaries()."
+msgstr ""
+
+#: ../../reference/textrender.rst:115
+msgid ":ref:`Vector4<api_Vector4>`  **TextRender::color** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:117
+msgid "Returns the color of the text to be drawn."
+msgstr ""
+
+#: ../../reference/textrender.rst:119
+msgid "**See also** setColor()."
+msgstr ""
+
+#: ../../reference/textrender.rst:125
+msgid ":ref:`Font<api_Font>` * **TextRender::font** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:127
+msgid "Returns the font which will be used to draw a text."
+msgstr ""
+
+#: ../../reference/textrender.rst:129
+msgid "**See also** setFont()."
+msgstr ""
+
+#: ../../reference/textrender.rst:135
+msgid ":ref:`int<api_int>`  **TextRender::fontSize** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:137
+msgid "Returns the size of the font."
+msgstr ""
+
+#: ../../reference/textrender.rst:139
+msgid "**See also** setFontSize()."
+msgstr ""
+
+#: ../../reference/textrender.rst:145
+msgid ":ref:`bool<api_bool>`  **TextRender::kerning** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:147
+msgid "Returns true if glyph kerning enabled; otherwise returns false."
+msgstr ""
+
+#: ../../reference/textrender.rst:149
+msgid "**See also** setKerning()."
+msgstr ""
+
+#: ../../reference/textrender.rst:155
+msgid ":ref:`Material<api_Material>` * **TextRender::material** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:157
+msgid "Returns an instantiated Material assigned to TextRender."
+msgstr ""
+
+#: ../../reference/textrender.rst:159
+msgid "**See also** setMaterial()."
+msgstr ""
+
+#: ../../reference/textrender.rst:165
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` * **TextRender::methods** ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:171
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` * **TextRender::properties** ()"
+msgstr ""
+
+#: ../../reference/textrender.rst:177
+msgid ":ref:`void<api_void>`  **TextRender::setAlign** (:ref:`int<api_int>`  *alignment*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:179
+msgid "Sets text *alignment* policy."
+msgstr ""
+
+#: ../../reference/textrender.rst:181
+msgid "**See also** align()."
+msgstr ""
+
+#: ../../reference/textrender.rst:187
+msgid ":ref:`void<api_void>`  **TextRender::setBoundaries** (:ref:`Vector2<api_Vector2>` & *boundaries*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:189
+msgid "Changes the *boundaries* of the text area. This parameter is involved in Word Wrap calculations."
+msgstr ""
+
+#: ../../reference/textrender.rst:191
+msgid "**See also** *boundaries*()."
+msgstr ""
+
+#: ../../reference/textrender.rst:197
+msgid ":ref:`void<api_void>`  **TextRender::setColor** (:ref:`Vector4<api_Vector4>` & *color*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:199
+msgid "Changes the *color* of the text to be drawn."
+msgstr ""
+
+#: ../../reference/textrender.rst:201
+msgid "**See also** *color*()."
+msgstr ""
+
+#: ../../reference/textrender.rst:207
+msgid ":ref:`void<api_void>`  **TextRender::setFont** (:ref:`Font<api_Font>` * *font*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:209
+msgid "Changes the *font* which will be used to draw a text."
+msgstr ""
+
+#: ../../reference/textrender.rst:211
+msgid "**See also** *font*()."
+msgstr ""
+
+#: ../../reference/textrender.rst:217
+msgid ":ref:`void<api_void>`  **TextRender::setFontSize** (:ref:`int<api_int>`  *size*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:219
+msgid "Changes the *size* of the font."
+msgstr ""
+
+#: ../../reference/textrender.rst:221
+msgid "**See also** fontSize()."
+msgstr ""
+
+#: ../../reference/textrender.rst:227
+msgid ":ref:`void<api_void>`  **TextRender::setKerning** (:ref:`bool<api_bool>`  *kerning*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:229
+msgid "Set true to enable glyph *kerning* and false to disable."
+msgstr ""
+
+#: ../../reference/textrender.rst:231
+msgid "**Note:** Glyph *kerning* functionality depends on fonts which you are using. In case of font doesn't support *kerning*, you will not see the difference."
+msgstr ""
+
+#: ../../reference/textrender.rst:233
+msgid "**See also** *kerning*()."
+msgstr ""
+
+#: ../../reference/textrender.rst:239
+msgid ":ref:`void<api_void>`  **TextRender::setMaterial** (:ref:`Material<api_Material>` * *material*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:241
+msgid "Creates a new instance of *material* and assigns it."
+msgstr ""
+
+#: ../../reference/textrender.rst:243
+msgid "**See also** *material*()."
+msgstr ""
+
+#: ../../reference/textrender.rst:249
+msgid ":ref:`void<api_void>`  **TextRender::setText** (:ref:`int<api_int>` & *text*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:251
+msgid "Changes the *text* which will be drawn."
+msgstr ""
+
+#: ../../reference/textrender.rst:253
+msgid "**See also** *text*()."
+msgstr ""
+
+#: ../../reference/textrender.rst:259
+msgid ":ref:`void<api_void>`  **TextRender::setWrap** (:ref:`bool<api_bool>`  *wrap*)"
+msgstr ""
+
+#: ../../reference/textrender.rst:261
+msgid "Sets the word *wrap* policy. Set true to enable word *wrap* and false to disable."
+msgstr ""
+
+#: ../../reference/textrender.rst:263
+msgid "**See also** *wrap*()."
+msgstr ""
+
+#: ../../reference/textrender.rst:269
+msgid ":ref:`int<api_int>`  **TextRender::text** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:271
+msgid "Returns the text which will be drawn."
+msgstr ""
+
+#: ../../reference/textrender.rst:273
+msgid "**See also** setText()."
+msgstr ""
+
+#: ../../reference/textrender.rst:279
+msgid ":ref:`bool<api_bool>`  **TextRender::wrap** () const"
+msgstr ""
+
+#: ../../reference/textrender.rst:281
+msgid "Returns true if word wrap enabled; otherwise returns false."
+msgstr ""
+
+#: ../../reference/textrender.rst:283
+msgid "**See also** setWrap()."
+msgstr ""

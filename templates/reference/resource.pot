@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/resource.rst:3
+msgid "Resource Class"
+msgstr ""
+
+#: ../../reference/resource.rst:5
+msgid "Inherited: :ref:`Object<api_Object>`"
+msgstr ""
+
+#: ../../reference/resource.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/resource.rst:11
+msgid "Base class for every resource in Thunder Engine."
+msgstr ""
+
+#: ../../reference/resource.rst:13
+msgid "Note: This class must be a superclass only and shouldn't be created manually."
+msgstr ""
+
+#: ../../reference/resource.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/resource.rst:22
+msgid ":ref:`Resource<api_Resource_Resource>` ()"
+msgstr ""
+
+#: ../../reference/resource.rst:24
+msgid ":ref:`~Resource<api_Resource_~Resource>` ()"
+msgstr ""
+
+#: ../../reference/resource.rst:26
+#: ../../reference/resource.rst:28
+#: ../../reference/resource.rst:30
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/resource.rst:26
+msgid ":ref:`decRef<api_Resource_decRef>` ()"
+msgstr ""
+
+#: ../../reference/resource.rst:28
+msgid ":ref:`incRef<api_Resource_incRef>` ()"
+msgstr ""
+
+#: ../../reference/resource.rst:30
+msgid ":ref:`setState<api_Resource_setState>` (Resource::ResourceState  state)"
+msgstr ""
+
+#: ../../reference/resource.rst:32
+msgid ":ref:`Resource::ResourceState<api_Resource::ResourceState>`"
+msgstr ""
+
+#: ../../reference/resource.rst:32
+msgid ":ref:`state<api_Resource_state>` () const"
+msgstr ""
+
+#: ../../reference/resource.rst:37
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/resource.rst:39
+msgid "None"
+msgstr ""
+
+#: ../../reference/resource.rst:43
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/resource.rst:47
+msgid "**Resource::Resource** ()"
+msgstr ""
+
+#: ../../reference/resource.rst:49
+msgid "Default constructs an instance of Resource."
+msgstr ""
+
+#: ../../reference/resource.rst:55
+msgid "**Resource::~Resource** ()"
+msgstr ""
+
+#: ../../reference/resource.rst:57
+msgid "Destroys the instance of Resource. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/resource.rst:63
+msgid ":ref:`void<api_void>`  **Resource::decRef** ()"
+msgstr ""
+
+#: ../../reference/resource.rst:65
+msgid "Decreases the reference counter for the resource. In case of the reference count becomes zero the resource set to ResourceState::Suspend state."
+msgstr ""
+
+#: ../../reference/resource.rst:71
+msgid ":ref:`void<api_void>`  **Resource::incRef** ()"
+msgstr ""
+
+#: ../../reference/resource.rst:73
+msgid "Increases the reference counter for the resource."
+msgstr ""
+
+#: ../../reference/resource.rst:79
+msgid ":ref:`void<api_void>`  **Resource::setState** (:ref:`Resource::ResourceState<api_Resource::ResourceState>`  *state*)"
+msgstr ""
+
+#: ../../reference/resource.rst:81
+msgid "Sets new *state* for the resource."
+msgstr ""
+
+#: ../../reference/resource.rst:83
+msgid "**See also** *state*()."
+msgstr ""
+
+#: ../../reference/resource.rst:89
+msgid ":ref:`Resource::ResourceState<api_Resource::ResourceState>`  **Resource::state** () const"
+msgstr ""
+
+#: ../../reference/resource.rst:91
+msgid "Returns state for the resource. For possible states please see Resource::ResourceState."
+msgstr ""
+
+#: ../../reference/resource.rst:93
+msgid "**See also** setState()."
+msgstr ""

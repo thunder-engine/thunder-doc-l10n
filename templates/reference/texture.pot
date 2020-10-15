@@ -1,0 +1,409 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/texture.rst:3
+msgid "Texture Class"
+msgstr ""
+
+#: ../../reference/texture.rst:5
+msgid "Inherited: :ref:`Resource<api_Resource>`"
+msgstr ""
+
+#: ../../reference/texture.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/texture.rst:11
+msgid "Texture resource contains all necessary texture data."
+msgstr ""
+
+#: ../../reference/texture.rst:13
+msgid "This class can be used to handle texture resource or create them at runtime."
+msgstr ""
+
+#: ../../reference/texture.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/texture.rst:22
+msgid ":ref:`Texture<api_Texture_Texture>` ()"
+msgstr ""
+
+#: ../../reference/texture.rst:24
+msgid ":ref:`~Texture<api_Texture_~Texture>` ()"
+msgstr ""
+
+#: ../../reference/texture.rst:26
+#: ../../reference/texture.rst:40
+#: ../../reference/texture.rst:42
+#: ../../reference/texture.rst:44
+#: ../../reference/texture.rst:46
+#: ../../reference/texture.rst:48
+#: ../../reference/texture.rst:50
+#: ../../reference/texture.rst:52
+#: ../../reference/texture.rst:54
+#: ../../reference/texture.rst:56
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/texture.rst:26
+msgid ":ref:`addSurface<api_Texture_addSurface>` (const Texture::Surface & surface)"
+msgstr ""
+
+#: ../../reference/texture.rst:28
+msgid ":ref:`Texture::FilteringType<api_Texture::FilteringType>`"
+msgstr ""
+
+#: ../../reference/texture.rst:28
+msgid ":ref:`filtering<api_Texture_filtering>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:30
+msgid ":ref:`Texture::FormatType<api_Texture::FormatType>`"
+msgstr ""
+
+#: ../../reference/texture.rst:30
+msgid ":ref:`format<api_Texture_format>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:32
+#: ../../reference/texture.rst:34
+#: ../../reference/texture.rst:62
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/texture.rst:32
+msgid ":ref:`getPixel<api_Texture_getPixel>` (in  int) const"
+msgstr ""
+
+#: ../../reference/texture.rst:34
+msgid ":ref:`height<api_Texture_height>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:36
+#: ../../reference/texture.rst:38
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/texture.rst:36
+msgid ":ref:`isCompressed<api_Texture_isCompressed>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:38
+msgid ":ref:`isCubemap<api_Texture_isCubemap>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:40
+msgid ":ref:`readPixels<api_Texture_readPixels>` (int  x, int  y, int  width, int  height)"
+msgstr ""
+
+#: ../../reference/texture.rst:42
+msgid ":ref:`resize<api_Texture_resize>` (int  width, int  height)"
+msgstr ""
+
+#: ../../reference/texture.rst:44
+msgid ":ref:`setDirty<api_Texture_setDirty>` ()"
+msgstr ""
+
+#: ../../reference/texture.rst:46
+msgid ":ref:`setFiltering<api_Texture_setFiltering>` (Texture::FilteringType  type)"
+msgstr ""
+
+#: ../../reference/texture.rst:48
+msgid ":ref:`setFormat<api_Texture_setFormat>` (Texture::FormatType  type)"
+msgstr ""
+
+#: ../../reference/texture.rst:50
+msgid ":ref:`setHeight<api_Texture_setHeight>` (int  height)"
+msgstr ""
+
+#: ../../reference/texture.rst:52
+msgid ":ref:`setShape<api_Texture_setShape>` (const Vector2Vector & shape)"
+msgstr ""
+
+#: ../../reference/texture.rst:54
+msgid ":ref:`setWidth<api_Texture_setWidth>` (int  width)"
+msgstr ""
+
+#: ../../reference/texture.rst:56
+msgid ":ref:`setWrap<api_Texture_setWrap>` (Texture::WrapType  type)"
+msgstr ""
+
+#: ../../reference/texture.rst:58
+msgid ":ref:`Vector2Vector<api_Vector2Vector>`"
+msgstr ""
+
+#: ../../reference/texture.rst:58
+msgid ":ref:`shape<api_Texture_shape>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:60
+msgid ":ref:`Texture::Surface<api_Texture::Surface>` &"
+msgstr ""
+
+#: ../../reference/texture.rst:60
+msgid ":ref:`surface<api_Texture_surface>` (int  face)"
+msgstr ""
+
+#: ../../reference/texture.rst:62
+msgid ":ref:`width<api_Texture_width>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:64
+msgid ":ref:`Texture::WrapType<api_Texture::WrapType>`"
+msgstr ""
+
+#: ../../reference/texture.rst:64
+msgid ":ref:`wrap<api_Texture_wrap>` () const"
+msgstr ""
+
+#: ../../reference/texture.rst:69
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/texture.rst:71
+msgid "None"
+msgstr ""
+
+#: ../../reference/texture.rst:75
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/texture.rst:79
+msgid "**Texture::Texture** ()"
+msgstr ""
+
+#: ../../reference/texture.rst:81
+msgid "Default constructs an instance of Texture."
+msgstr ""
+
+#: ../../reference/texture.rst:87
+msgid "**Texture::~Texture** ()"
+msgstr ""
+
+#: ../../reference/texture.rst:89
+msgid "Destroys the instance of Texture. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/texture.rst:95
+msgid ":ref:`void<api_void>`  **Texture::addSurface** (:ref:`Texture::Surface<api_Texture::Surface>` & *surface*)"
+msgstr ""
+
+#: ../../reference/texture.rst:97
+msgid "Adds *surface* to the texture. Each texture must contain at least one *surface*. Commonly used to set *surface*s for the cube maps."
+msgstr ""
+
+#: ../../reference/texture.rst:103
+msgid ":ref:`Texture::FilteringType<api_Texture::FilteringType>`  **Texture::filtering** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:105
+msgid "Returns filtering type of texture. For more details please see the Texture::FilteringType enum."
+msgstr ""
+
+#: ../../reference/texture.rst:107
+msgid "**See also** setFiltering()."
+msgstr ""
+
+#: ../../reference/texture.rst:113
+msgid ":ref:`Texture::FormatType<api_Texture::FormatType>`  **Texture::format** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:115
+msgid "Returns format type of texture. For more details please see the Texture::FormatType enum."
+msgstr ""
+
+#: ../../reference/texture.rst:117
+msgid "**See also** setFormat()."
+msgstr ""
+
+#: ../../reference/texture.rst:123
+msgid ":ref:`int<api_int>`  **Texture::getPixel** (:ref:`in<api_in>`  *int*) const"
+msgstr ""
+
+#: ../../reference/texture.rst:125
+msgid "Returns pixel color as RGBA *int*eger for example 0x00ff00ff which can be mapped to (0, 255, 0, 255)"
+msgstr ""
+
+#: ../../reference/texture.rst:131
+msgid ":ref:`int<api_int>`  **Texture::height** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:133
+msgid "Returns height for the texture."
+msgstr ""
+
+#: ../../reference/texture.rst:135
+msgid "**See also** setHeight()."
+msgstr ""
+
+#: ../../reference/texture.rst:141
+msgid ":ref:`bool<api_bool>`  **Texture::isCompressed** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:143
+msgid "Returns true if texture uses one of the compression formats; otherwise returns false."
+msgstr ""
+
+#: ../../reference/texture.rst:149
+msgid ":ref:`bool<api_bool>`  **Texture::isCubemap** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:151
+msgid "Returns true if the texture is a cube map; otherwise returns false."
+msgstr ""
+
+#: ../../reference/texture.rst:157
+msgid ":ref:`void<api_void>`  **Texture::readPixels** (:ref:`int<api_int>`  *x*, :ref:`int<api_int>`  *y*, :ref:`int<api_int>`  *width*, :ref:`int<api_int>`  *height*)"
+msgstr ""
+
+#: ../../reference/texture.rst:159
+msgid "Read pixels from GPU into texture data."
+msgstr ""
+
+#: ../../reference/texture.rst:165
+msgid ":ref:`void<api_void>`  **Texture::resize** (:ref:`int<api_int>`  *width*, :ref:`int<api_int>`  *height*)"
+msgstr ""
+
+#: ../../reference/texture.rst:167
+msgid "Sets new *width* and *height* for the texture."
+msgstr ""
+
+#: ../../reference/texture.rst:173
+msgid ":ref:`void<api_void>`  **Texture::setDirty** ()"
+msgstr ""
+
+#: ../../reference/texture.rst:175
+msgid "Marks texture as dirty. That means this texture must be forcefully reloaded."
+msgstr ""
+
+#: ../../reference/texture.rst:181
+msgid ":ref:`void<api_void>`  **Texture::setFiltering** (:ref:`Texture::FilteringType<api_Texture::FilteringType>`  *type*)"
+msgstr ""
+
+#: ../../reference/texture.rst:183
+msgid "Sets filtering *type* of texture. For more details please see the Texture::FilteringType enum."
+msgstr ""
+
+#: ../../reference/texture.rst:185
+msgid "**See also** filtering()."
+msgstr ""
+
+#: ../../reference/texture.rst:191
+msgid ":ref:`void<api_void>`  **Texture::setFormat** (:ref:`Texture::FormatType<api_Texture::FormatType>`  *type*)"
+msgstr ""
+
+#: ../../reference/texture.rst:193
+msgid "Sets format *type* of texture. For more details please see the Texture::FormatType enum."
+msgstr ""
+
+#: ../../reference/texture.rst:195
+msgid "**See also** format()."
+msgstr ""
+
+#: ../../reference/texture.rst:201
+msgid ":ref:`void<api_void>`  **Texture::setHeight** (:ref:`int<api_int>`  *height*)"
+msgstr ""
+
+#: ../../reference/texture.rst:203
+msgid "Sets new *height* for the texture."
+msgstr ""
+
+#: ../../reference/texture.rst:205
+msgid "**See also** *height*()."
+msgstr ""
+
+#: ../../reference/texture.rst:211
+msgid ":ref:`void<api_void>`  **Texture::setShape** (:ref:`Vector2Vector<api_Vector2Vector>` & *shape*)"
+msgstr ""
+
+#: ../../reference/texture.rst:213
+msgid "Sets the bounding *shape* for the texture."
+msgstr ""
+
+#: ../../reference/texture.rst:215
+msgid "**See also** *shape*()."
+msgstr ""
+
+#: ../../reference/texture.rst:221
+msgid ":ref:`void<api_void>`  **Texture::setWidth** (:ref:`int<api_int>`  *width*)"
+msgstr ""
+
+#: ../../reference/texture.rst:223
+msgid "Sets new *width* for the texture."
+msgstr ""
+
+#: ../../reference/texture.rst:225
+msgid "**See also** *width*()."
+msgstr ""
+
+#: ../../reference/texture.rst:231
+msgid ":ref:`void<api_void>`  **Texture::setWrap** (:ref:`Texture::WrapType<api_Texture::WrapType>`  *type*)"
+msgstr ""
+
+#: ../../reference/texture.rst:233
+msgid "Sets the *type* of warp policy. For more details please see the Texture::WrapType enum."
+msgstr ""
+
+#: ../../reference/texture.rst:235
+msgid "**See also** wrap()."
+msgstr ""
+
+#: ../../reference/texture.rst:241
+msgid ":ref:`Vector2Vector<api_Vector2Vector>`  **Texture::shape** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:243
+msgid "Returns the bounding shape for the texture."
+msgstr ""
+
+#: ../../reference/texture.rst:245
+msgid "**See also** setShape()."
+msgstr ""
+
+#: ../../reference/texture.rst:251
+msgid ":ref:`Texture::Surface<api_Texture::Surface>` & **Texture::surface** (:ref:`int<api_int>`  *face*)"
+msgstr ""
+
+#: ../../reference/texture.rst:253
+msgid "Returns a surface for the provided *face*. Each texture must contain at least one surface. Commonly used to set surfaces for the cube maps."
+msgstr ""
+
+#: ../../reference/texture.rst:259
+msgid ":ref:`int<api_int>`  **Texture::width** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:261
+msgid "Returns width for the texture."
+msgstr ""
+
+#: ../../reference/texture.rst:263
+msgid "**See also** setWidth()."
+msgstr ""
+
+#: ../../reference/texture.rst:269
+msgid ":ref:`Texture::WrapType<api_Texture::WrapType>`  **Texture::wrap** () const"
+msgstr ""
+
+#: ../../reference/texture.rst:271
+msgid "Returns the type of warp policy. For more details please see the Texture::WrapType enum."
+msgstr ""
+
+#: ../../reference/texture.rst:273
+msgid "**See also** setWrap()."
+msgstr ""

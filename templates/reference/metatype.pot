@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/metatype.rst:3
+msgid "MetaType Class"
+msgstr ""
+
+#: ../../reference/metatype.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/metatype.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/metatype.rst:11
+msgid "The MetaType provides an interface to retrieve information about data type at runtime."
+msgstr ""
+
+#: ../../reference/metatype.rst:13
+msgid "This class is designed for retrieving of runtime type information with additional functionality."
+msgstr ""
+
+#: ../../reference/metatype.rst:15
+msgid "Some of registered types can be automatically converted to different types with MetaType::convert functunction. The following conversions are predefined:"
+msgstr ""
+
+#: ../../reference/metatype.rst:17
+msgid "To convert values to other types developer should define own conversion type function using MetaType::registerConverter() function"
+msgstr ""
+
+#: ../../reference/metatype.rst:23
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/metatype.rst:26
+msgid ":ref:`MetaType<api_MetaType_MetaType>` (const MetaType::Table * table)"
+msgstr ""
+
+#: ../../reference/metatype.rst:28
+#: ../../reference/metatype.rst:38
+#: ../../reference/metatype.rst:50
+#: ../../reference/metatype.rst:54
+#: ../../reference/metatype.rst:62
+#: ../../reference/metatype.rst:66
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/metatype.rst:28
+msgid ":ref:`compare<api_MetaType_compare>` (const void * left, const void * right) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:30
+#: ../../reference/metatype.rst:32
+#: ../../reference/metatype.rst:52
+#: ../../reference/metatype.rst:56
+msgid ":ref:`void<api_void>` *"
+msgstr ""
+
+#: ../../reference/metatype.rst:30
+msgid ":ref:`construct<api_MetaType_construct>` (void * where, const void * copy = nullptr) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:32
+msgid ":ref:`create<api_MetaType_create>` (const void * copy = nullptr) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:34
+#: ../../reference/metatype.rst:36
+#: ../../reference/metatype.rst:58
+#: ../../reference/metatype.rst:60
+#: ../../reference/metatype.rst:82
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/metatype.rst:34
+msgid ":ref:`destroy<api_MetaType_destroy>` (void * data) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:36
+msgid ":ref:`destruct<api_MetaType_destruct>` (void * data) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:38
+msgid ":ref:`isValid<api_MetaType_isValid>` () const"
+msgstr ""
+
+#: ../../reference/metatype.rst:40
+#: ../../reference/metatype.rst:64
+msgid ":ref:`const char<api_const char>` *"
+msgstr ""
+
+#: ../../reference/metatype.rst:40
+msgid ":ref:`name<api_MetaType_name>` () const"
+msgstr ""
+
+#: ../../reference/metatype.rst:42
+#: ../../reference/metatype.rst:68
+#: ../../reference/metatype.rst:70
+#: ../../reference/metatype.rst:74
+#: ../../reference/metatype.rst:76
+#: ../../reference/metatype.rst:78
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/metatype.rst:42
+msgid ":ref:`size<api_MetaType_size>` () const"
+msgstr ""
+
+#: ../../reference/metatype.rst:47
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/metatype.rst:50
+msgid ":ref:`compare<api_MetaType_compare>` (const void * left, const void * right, int  type)"
+msgstr ""
+
+#: ../../reference/metatype.rst:52
+msgid ":ref:`construct<api_MetaType_construct>` (int  type, void * where, const void * copy = nullptr)"
+msgstr ""
+
+#: ../../reference/metatype.rst:54
+msgid ":ref:`convert<api_MetaType_convert>` (const void * from, int  fromType, void * to, int  toType)"
+msgstr ""
+
+#: ../../reference/metatype.rst:56
+msgid ":ref:`create<api_MetaType_create>` (int  type, const void * copy = nullptr)"
+msgstr ""
+
+#: ../../reference/metatype.rst:58
+msgid ":ref:`destroy<api_MetaType_destroy>` (int  type, void * data)"
+msgstr ""
+
+#: ../../reference/metatype.rst:60
+msgid ":ref:`destruct<api_MetaType_destruct>` (int  type, void * data)"
+msgstr ""
+
+#: ../../reference/metatype.rst:62
+msgid ":ref:`hasConverter<api_MetaType_hasConverter>` (int  from, int  to)"
+msgstr ""
+
+#: ../../reference/metatype.rst:64
+msgid ":ref:`name<api_MetaType_name>` (int  type)"
+msgstr ""
+
+#: ../../reference/metatype.rst:66
+msgid ":ref:`registerConverter<api_MetaType_registerConverter>` (int  from, int  to, MetaType::converterCallback  function)"
+msgstr ""
+
+#: ../../reference/metatype.rst:68
+msgid ":ref:`registerType<api_MetaType_registerType>` (MetaType::Table & )"
+msgstr ""
+
+#: ../../reference/metatype.rst:70
+msgid ":ref:`size<api_MetaType_size>` (int  type)"
+msgstr ""
+
+#: ../../reference/metatype.rst:72
+msgid ":ref:`MetaType::Table<api_MetaType::Table>` *"
+msgstr ""
+
+#: ../../reference/metatype.rst:72
+msgid ":ref:`table<api_MetaType_table>` (int  type)"
+msgstr ""
+
+#: ../../reference/metatype.rst:74
+msgid ":ref:`type<api_MetaType_type>` (const char * )"
+msgstr ""
+
+#: ../../reference/metatype.rst:76
+msgid ":ref:`type<api_MetaType_type>` (const int & )"
+msgstr ""
+
+#: ../../reference/metatype.rst:78
+msgid ":ref:`type<api_MetaType_type>` ()"
+msgstr ""
+
+#: ../../reference/metatype.rst:80
+msgid ":ref:`MetaType::TypeMap<api_MetaType::TypeMap>`"
+msgstr ""
+
+#: ../../reference/metatype.rst:80
+msgid ":ref:`types<api_MetaType_types>` ()"
+msgstr ""
+
+#: ../../reference/metatype.rst:82
+msgid ":ref:`unregisterType<api_MetaType_unregisterType>` (MetaType::Table & table)"
+msgstr ""
+
+#: ../../reference/metatype.rst:87
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/metatype.rst:91
+msgid "**MetaType::MetaType** (:ref:`MetaType::Table<api_MetaType::Table>` * *table*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:93
+msgid "Constructs MetaType object wich will contain information provided in a *table*."
+msgstr ""
+
+#: ../../reference/metatype.rst:99
+msgid ":ref:`bool<api_bool>`  **MetaType::compare** (:ref:`void<api_void>` * *left*, :ref:`void<api_void>` * *right*) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:101
+msgid "Returns true in case of *left* value is equal to *right* value; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metatype.rst:107
+msgid ":ref:`bool<api_bool>`  **MetaType::compare** (:ref:`void<api_void>` * *left*, :ref:`void<api_void>` * *right*, :ref:`int<api_int>`  *type*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:109
+msgid "Returns true in case of *left* value is equal to *right* value with *type*; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metatype.rst:115
+msgid ":ref:`void<api_void>` * **MetaType::construct** (:ref:`void<api_void>` * *where*, :ref:`void<api_void>` * *copy* = nullptr) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:117
+msgid "Constructs a value of the given type, wich represented by current MetaType object in the existing memory addressed by *where*, that is a *copy* of *copy*, and returns *where*. If *copy* is zero, the value is default constructed."
+msgstr ""
+
+#: ../../reference/metatype.rst:123
+msgid ":ref:`void<api_void>` * **MetaType::construct** (:ref:`int<api_int>`  *type*, :ref:`void<api_void>` * *where*, :ref:`void<api_void>` * *copy* = nullptr)"
+msgstr ""
+
+#: ../../reference/metatype.rst:125
+msgid "Constructs a value of the given *type* in the existing memory addressed by *where*, that is a *copy* of *copy*, and returns *where*. If *copy* is zero, the value is default constructed."
+msgstr ""
+
+#: ../../reference/metatype.rst:131
+msgid ":ref:`bool<api_bool>`  **MetaType::convert** (:ref:`void<api_void>` * *from*, :ref:`int<api_int>`  *fromType*, :ref:`void<api_void>` * *to*, :ref:`int<api_int>`  *toType*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:133
+msgid "Tries *to* convert value *from* with type *from*Type *to* type *to*Type and place the result *to* output value *to*. Returns true if conversion succeed; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metatype.rst:135
+#: ../../reference/metatype.rst:225
+msgid "**See also** hasConverter()."
+msgstr ""
+
+#: ../../reference/metatype.rst:141
+msgid ":ref:`void<api_void>` * **MetaType::create** (:ref:`void<api_void>` * *copy* = nullptr) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:143
+msgid "Returns a *copy* of *copy* value, with type, wich represented by current MetaType object. If *copy* is null, creates a default constructed instance."
+msgstr ""
+
+#: ../../reference/metatype.rst:149
+msgid ":ref:`void<api_void>` * **MetaType::create** (:ref:`int<api_int>`  *type*, :ref:`void<api_void>` * *copy* = nullptr)"
+msgstr ""
+
+#: ../../reference/metatype.rst:151
+msgid "Returns a *copy* of *copy* value, with *type*. If *copy* is null, creates a default constructed instance."
+msgstr ""
+
+#: ../../reference/metatype.rst:157
+msgid ":ref:`void<api_void>`  **MetaType::destroy** (:ref:`void<api_void>` * *data*) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:159
+msgid "Destroys the value with type, wich represented by current MetaType object, located at *data*. This function calls delete operator."
+msgstr ""
+
+#: ../../reference/metatype.rst:165
+msgid ":ref:`void<api_void>`  **MetaType::destroy** (:ref:`int<api_int>`  *type*, :ref:`void<api_void>` * *data*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:167
+msgid "Destroys the value with *type*, located at *data*. This function calls delete operator."
+msgstr ""
+
+#: ../../reference/metatype.rst:173
+msgid ":ref:`void<api_void>`  **MetaType::destruct** (:ref:`void<api_void>` * *data*) const"
+msgstr ""
+
+#: ../../reference/metatype.rst:175
+msgid "Destructs the value with type, wich represented by current MetaType object, located at *data*. Unlike destroy(), this function only invokes the type's destructor, it doesn't invoke the delete operator."
+msgstr ""
+
+#: ../../reference/metatype.rst:181
+msgid ":ref:`void<api_void>`  **MetaType::destruct** (:ref:`int<api_int>`  *type*, :ref:`void<api_void>` * *data*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:183
+msgid "Destructs the value with *type*, located at *data*. Unlike destroy(), this function only invokes the *type*'s destructor, it doesn't invoke the delete operator."
+msgstr ""
+
+#: ../../reference/metatype.rst:189
+msgid ":ref:`bool<api_bool>`  **MetaType::hasConverter** (:ref:`int<api_int>`  *from*, :ref:`int<api_int>`  *to*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:191
+msgid "Returns true in case of type *from* can be converted *to* type *to*; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metatype.rst:197
+msgid ":ref:`bool<api_bool>`  **MetaType::isValid** () const"
+msgstr ""
+
+#: ../../reference/metatype.rst:199
+msgid "Returns true in case of this MetaType object contain valid information; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metatype.rst:205
+msgid ":ref:`const char<api_const char>` * **MetaType::name** () const"
+msgstr ""
+
+#: ../../reference/metatype.rst:207
+msgid "Returns the name of type."
+msgstr ""
+
+#: ../../reference/metatype.rst:213
+msgid ":ref:`const char<api_const char>` * **MetaType::name** (:ref:`int<api_int>`  *type*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:215
+msgid "Returns a name of *type* with *type* ID. Returns nullptr for unregistered *type*."
+msgstr ""
+
+#: ../../reference/metatype.rst:221
+msgid ":ref:`bool<api_bool>`  **MetaType::registerConverter** (:ref:`int<api_int>`  *from*, :ref:`int<api_int>`  *to*, :ref:`MetaType::converterCallback<api_MetaType::converterCallback>`  *function*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:223
+msgid "Registers the possibility *to* convert value type *from* *to* type *to* with conversion *function*. Returns true in case of converter successfully registered; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metatype.rst:231
+msgid ":ref:`int<api_int>`  **MetaType::registerType** (:ref:`MetaType::Table<api_MetaType::Table>` & **)"
+msgstr ""
+
+#: ../../reference/metatype.rst:233
+msgid "Registers **type **by **type **MetaType::Table **table. **Use **registerMetaType() **instead **this **function. **Returns **an **ID **of **registered **type."
+msgstr ""
+
+#: ../../reference/metatype.rst:239
+msgid ":ref:`int<api_int>`  **MetaType::size** () const"
+msgstr ""
+
+#: ../../reference/metatype.rst:241
+msgid "Returns the size of type."
+msgstr ""
+
+#: ../../reference/metatype.rst:247
+msgid ":ref:`int<api_int>`  **MetaType::size** (:ref:`int<api_int>`  *type*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:249
+msgid "Returns a size of *type* with *type* ID. Returns 0 for unregistered *type*."
+msgstr ""
+
+#: ../../reference/metatype.rst:255
+msgid ":ref:`MetaType::Table<api_MetaType::Table>` * **MetaType::table** (:ref:`int<api_int>`  *type*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:257
+msgid "Returns *type* information table if *type* registered; otherwise returns nullptr."
+msgstr ""
+
+#: ../../reference/metatype.rst:263
+msgid ":ref:`int<api_int>`  **MetaType::type** (:ref:`char<api_char>` * **)"
+msgstr ""
+
+#: ../../reference/metatype.rst:265
+msgid "Returns **an **ID **of **type **with **type **name. **Returns **MetaType::INVALID **for **unregistered **type."
+msgstr ""
+
+#: ../../reference/metatype.rst:271
+msgid ":ref:`int<api_int>`  **MetaType::type** (:ref:`int<api_int>` & **)"
+msgstr ""
+
+#: ../../reference/metatype.rst:273
+msgid "Returns **an **ID **of **type **with **type **info. **Returns **MetaType::INVALID **for **unregistered **type."
+msgstr ""
+
+#: ../../reference/metatype.rst:279
+msgid ":ref:`int<api_int>`  **MetaType::type** ()"
+msgstr ""
+
+#: ../../reference/metatype.rst:285
+msgid ":ref:`MetaType::TypeMap<api_MetaType::TypeMap>`  **MetaType::types** ()"
+msgstr ""
+
+#: ../../reference/metatype.rst:287
+msgid "Returns a table of registered types."
+msgstr ""
+
+#: ../../reference/metatype.rst:293
+msgid ":ref:`void<api_void>`  **MetaType::unregisterType** (:ref:`MetaType::Table<api_MetaType::Table>` & *table*)"
+msgstr ""
+
+#: ../../reference/metatype.rst:295
+msgid "Unregisters type by type MetaType::Table *table*. Use unregisterMetaType() instead this function."
+msgstr ""

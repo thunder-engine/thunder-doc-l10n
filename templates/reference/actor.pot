@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/actor.rst:3
+msgid "Actor Class"
+msgstr ""
+
+#: ../../reference/actor.rst:5
+msgid "Inherited: :ref:`Object<api_Object>`"
+msgstr ""
+
+#: ../../reference/actor.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/actor.rst:11
+msgid "Base class for all entities in Thunder Engine."
+msgstr ""
+
+#: ../../reference/actor.rst:13
+msgid "The Actor probably is the most important class in the Thunder Engine. It represents all objects on the scene like 3D meshes, light sources, effects and many more. You should think about Actor as a key chain for the various Components. You can add and remove any components you like at any time except the Transform component. The Transform component must persist constantly and you shoudn't remove it."
+msgstr ""
+
+#: ../../reference/actor.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/actor.rst:22
+msgid ":ref:`Actor<api_Actor_Actor>` ()"
+msgstr ""
+
+#: ../../reference/actor.rst:24
+msgid ":ref:`~Actor<api_Actor_~Actor>` ()"
+msgstr ""
+
+#: ../../reference/actor.rst:26
+#: ../../reference/actor.rst:28
+#: ../../reference/actor.rst:30
+msgid ":ref:`Component<api_Component>` *"
+msgstr ""
+
+#: ../../reference/actor.rst:26
+msgid ":ref:`addComponent<api_Actor_addComponent>` (const int  type)"
+msgstr ""
+
+#: ../../reference/actor.rst:28
+msgid ":ref:`component<api_Actor_component>` (const int  type)"
+msgstr ""
+
+#: ../../reference/actor.rst:30
+msgid ":ref:`componentInChild<api_Actor_componentInChild>` (const int  type)"
+msgstr ""
+
+#: ../../reference/actor.rst:32
+#: ../../reference/actor.rst:34
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/actor.rst:32
+msgid ":ref:`isEnabled<api_Actor_isEnabled>` () const"
+msgstr ""
+
+#: ../../reference/actor.rst:34
+msgid ":ref:`isPrefab<api_Actor_isPrefab>` () const"
+msgstr ""
+
+#: ../../reference/actor.rst:36
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/actor.rst:36
+msgid ":ref:`layers<api_Actor_layers>` () const"
+msgstr ""
+
+#: ../../reference/actor.rst:38
+msgid ":ref:`Scene<api_Scene>` *"
+msgstr ""
+
+#: ../../reference/actor.rst:38
+msgid ":ref:`scene<api_Actor_scene>` ()"
+msgstr ""
+
+#: ../../reference/actor.rst:40
+#: ../../reference/actor.rst:42
+#: ../../reference/actor.rst:44
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/actor.rst:40
+msgid ":ref:`setEnabled<api_Actor_setEnabled>` (const bool  enabled)"
+msgstr ""
+
+#: ../../reference/actor.rst:42
+msgid ":ref:`setLayers<api_Actor_setLayers>` (const int  layers)"
+msgstr ""
+
+#: ../../reference/actor.rst:44
+msgid ":ref:`setParent<api_Actor_setParent>` (Object * parent)"
+msgstr ""
+
+#: ../../reference/actor.rst:46
+msgid ":ref:`Transform<api_Transform>` *"
+msgstr ""
+
+#: ../../reference/actor.rst:46
+msgid ":ref:`transform<api_Actor_transform>` ()"
+msgstr ""
+
+#: ../../reference/actor.rst:51
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/actor.rst:54
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` *"
+msgstr ""
+
+#: ../../reference/actor.rst:54
+msgid ":ref:`methods<api_Actor_methods>` ()"
+msgstr ""
+
+#: ../../reference/actor.rst:56
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` *"
+msgstr ""
+
+#: ../../reference/actor.rst:56
+msgid ":ref:`properties<api_Actor_properties>` ()"
+msgstr ""
+
+#: ../../reference/actor.rst:61
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/actor.rst:65
+msgid "**Actor::Actor** ()"
+msgstr ""
+
+#: ../../reference/actor.rst:67
+msgid "Default constructs an instance of Actor."
+msgstr ""
+
+#: ../../reference/actor.rst:73
+msgid "**Actor::~Actor** ()"
+msgstr ""
+
+#: ../../reference/actor.rst:75
+msgid "Destroys the instance of Actor. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/actor.rst:81
+msgid ":ref:`Component<api_Component>` * **Actor::addComponent** (:ref:`int<api_int>`  *type*)"
+msgstr ""
+
+#: ../../reference/actor.rst:83
+msgid "Returns created component with specified *type*;"
+msgstr ""
+
+#: ../../reference/actor.rst:89
+msgid ":ref:`Component<api_Component>` * **Actor::component** (:ref:`int<api_int>`  *type*)"
+msgstr ""
+
+#: ../../reference/actor.rst:91
+msgid "Returns the component with *type* if one is attached to this Actor; otherwise returns nullptr."
+msgstr ""
+
+#: ../../reference/actor.rst:97
+msgid ":ref:`Component<api_Component>` * **Actor::componentInChild** (:ref:`int<api_int>`  *type*)"
+msgstr ""
+
+#: ../../reference/actor.rst:99
+msgid "Returns the component with *type* in the Actor's children using depth search. A component is returned only if it's found on a current Actor; otherwise returns nullptr."
+msgstr ""
+
+#: ../../reference/actor.rst:105
+msgid ":ref:`bool<api_bool>`  **Actor::isEnabled** () const"
+msgstr ""
+
+#: ../../reference/actor.rst:107
+msgid "Returns true in case of Actor is enabled; otherwise returns false. Disabled Actors becomes invisible for the user. By default the property is true."
+msgstr ""
+
+#: ../../reference/actor.rst:113
+msgid ":ref:`bool<api_bool>`  **Actor::isPrefab** () const"
+msgstr ""
+
+#: ../../reference/actor.rst:115
+msgid "Returns true in case the current object is an instance of the serialized prefab structure; otherwise returns false."
+msgstr ""
+
+#: ../../reference/actor.rst:121
+msgid ":ref:`int<api_int>`  **Actor::layers** () const"
+msgstr ""
+
+#: ../../reference/actor.rst:123
+msgid "Returns the layers list for the this Actor as a bit mask. The layers used for the various purposes like filtering objects before rendering."
+msgstr ""
+
+#: ../../reference/actor.rst:125
+msgid "**See also** setLayers()."
+msgstr ""
+
+#: ../../reference/actor.rst:131
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` * **Actor::methods** ()"
+msgstr ""
+
+#: ../../reference/actor.rst:137
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` * **Actor::properties** ()"
+msgstr ""
+
+#: ../../reference/actor.rst:143
+msgid ":ref:`Scene<api_Scene>` * **Actor::scene** ()"
+msgstr ""
+
+#: ../../reference/actor.rst:145
+msgid "Returns the scene where actor attached to."
+msgstr ""
+
+#: ../../reference/actor.rst:151
+msgid ":ref:`void<api_void>`  **Actor::setEnabled** (:ref:`bool<api_bool>`  *enabled*)"
+msgstr ""
+
+#: ../../reference/actor.rst:153
+msgid "Marks this Actor as *enabled* or disabled. Disabled Actors becomes invisible for the user."
+msgstr ""
+
+#: ../../reference/actor.rst:155
+msgid "**See also** isEnabled()."
+msgstr ""
+
+#: ../../reference/actor.rst:161
+msgid ":ref:`void<api_void>`  **Actor::setLayers** (:ref:`int<api_int>`  *layers*)"
+msgstr ""
+
+#: ../../reference/actor.rst:163
+msgid "Assigns the list of *layers* for this Actor as a bitmask."
+msgstr ""
+
+#: ../../reference/actor.rst:165
+msgid "**See also** *layers*()."
+msgstr ""
+
+#: ../../reference/actor.rst:171
+msgid ":ref:`void<api_void>`  **Actor::setParent** (:ref:`Object<api_Object>` * *parent*)"
+msgstr ""
+
+#: ../../reference/actor.rst:173
+msgid "Reimplemented from Object::setParent()."
+msgstr ""
+
+#: ../../reference/actor.rst:175
+msgid "Makes the actor a child of the *parent*."
+msgstr ""
+
+#: ../../reference/actor.rst:181
+msgid ":ref:`Transform<api_Transform>` * **Actor::transform** ()"
+msgstr ""
+
+#: ../../reference/actor.rst:183
+msgid "Returns the Transform component attached to this Actor. If no Transform component found this method will create a new one."
+msgstr ""

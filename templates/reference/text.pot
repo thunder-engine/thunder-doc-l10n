@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/text.rst:3
+msgid "Text Class"
+msgstr ""
+
+#: ../../reference/text.rst:5
+msgid "Inherited: :ref:`Resource<api_Resource>`"
+msgstr ""
+
+#: ../../reference/text.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/text.rst:11
+msgid "Text file resource."
+msgstr ""
+
+#: ../../reference/text.rst:17
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/text.rst:20
+msgid ":ref:`Text<api_Text_Text>` ()"
+msgstr ""
+
+#: ../../reference/text.rst:22
+msgid ":ref:`~Text<api_Text_~Text>` ()"
+msgstr ""
+
+#: ../../reference/text.rst:24
+msgid ":ref:`char<api_char>` *"
+msgstr ""
+
+#: ../../reference/text.rst:24
+msgid ":ref:`data<api_Text_data>` () const"
+msgstr ""
+
+#: ../../reference/text.rst:26
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/text.rst:26
+msgid ":ref:`setSize<api_Text_setSize>` (int  size)"
+msgstr ""
+
+#: ../../reference/text.rst:28
+#: ../../reference/text.rst:30
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/text.rst:28
+msgid ":ref:`size<api_Text_size>` () const"
+msgstr ""
+
+#: ../../reference/text.rst:30
+msgid ":ref:`text<api_Text_text>` ()"
+msgstr ""
+
+#: ../../reference/text.rst:35
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/text.rst:37
+msgid "None"
+msgstr ""
+
+#: ../../reference/text.rst:41
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/text.rst:45
+msgid "**Text::Text** ()"
+msgstr ""
+
+#: ../../reference/text.rst:47
+msgid "Default constructs an instance of Text."
+msgstr ""
+
+#: ../../reference/text.rst:53
+msgid "**Text::~Text** ()"
+msgstr ""
+
+#: ../../reference/text.rst:55
+msgid "Destroys the instance of Text. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/text.rst:61
+msgid ":ref:`char<api_char>` * **Text::data** () const"
+msgstr ""
+
+#: ../../reference/text.rst:63
+msgid "Returns text content as a raw byte array."
+msgstr ""
+
+#: ../../reference/text.rst:69
+msgid ":ref:`void<api_void>`  **Text::setSize** (:ref:`int<api_int>`  *size*)"
+msgstr ""
+
+#: ../../reference/text.rst:71
+msgid "Sets the new *size* of the text resource."
+msgstr ""
+
+#: ../../reference/text.rst:73
+msgid "**See also** *size*()."
+msgstr ""
+
+#: ../../reference/text.rst:79
+msgid ":ref:`int<api_int>`  **Text::size** () const"
+msgstr ""
+
+#: ../../reference/text.rst:81
+msgid "Returns size of the text resource."
+msgstr ""
+
+#: ../../reference/text.rst:83
+msgid "**See also** setSize()."
+msgstr ""
+
+#: ../../reference/text.rst:89
+msgid ":ref:`int<api_int>`  **Text::text** ()"
+msgstr ""
+
+#: ../../reference/text.rst:91
+msgid "Returns text content as a tring."
+msgstr ""

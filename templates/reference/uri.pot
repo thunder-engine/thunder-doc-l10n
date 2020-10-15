@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/uri.rst:3
+msgid "Uri Class"
+msgstr ""
+
+#: ../../reference/uri.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/uri.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/uri.rst:11
+msgid "Uri class provides an interface for working with URI's."
+msgstr ""
+
+#: ../../reference/uri.rst:17
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/uri.rst:20
+msgid ":ref:`Uri<api_Uri_Uri>` (const int & uri)"
+msgstr ""
+
+#: ../../reference/uri.rst:22
+msgid ":ref:`~Uri<api_Uri_~Uri>` ()"
+msgstr ""
+
+#: ../../reference/uri.rst:24
+#: ../../reference/uri.rst:26
+#: ../../reference/uri.rst:28
+#: ../../reference/uri.rst:30
+#: ../../reference/uri.rst:32
+#: ../../reference/uri.rst:34
+#: ../../reference/uri.rst:36
+#: ../../reference/uri.rst:38
+#: ../../reference/uri.rst:40
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/uri.rst:24
+msgid ":ref:`baseName<api_Uri_baseName>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:26
+msgid ":ref:`dir<api_Uri_dir>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:28
+msgid ":ref:`fragment<api_Uri_fragment>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:30
+msgid ":ref:`host<api_Uri_host>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:32
+msgid ":ref:`name<api_Uri_name>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:34
+msgid ":ref:`path<api_Uri_path>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:36
+msgid ":ref:`query<api_Uri_query>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:38
+msgid ":ref:`scheme<api_Uri_scheme>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:40
+msgid ":ref:`suffix<api_Uri_suffix>` () const"
+msgstr ""
+
+#: ../../reference/uri.rst:45
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/uri.rst:47
+msgid "None"
+msgstr ""
+
+#: ../../reference/uri.rst:51
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/uri.rst:55
+msgid "**Uri::Uri** (:ref:`int<api_int>` & *uri*)"
+msgstr ""
+
+#: ../../reference/uri.rst:57
+msgid "Default constructs an instance of Uri."
+msgstr ""
+
+#: ../../reference/uri.rst:63
+msgid "**Uri::~Uri** ()"
+msgstr ""
+
+#: ../../reference/uri.rst:65
+msgid "Destroys the instance of Uri."
+msgstr ""
+
+#: ../../reference/uri.rst:71
+msgid ":ref:`int<api_int>`  **Uri::baseName** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:77
+msgid ":ref:`int<api_int>`  **Uri::dir** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:83
+msgid ":ref:`int<api_int>`  **Uri::fragment** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:89
+msgid ":ref:`int<api_int>`  **Uri::host** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:95
+msgid ":ref:`int<api_int>`  **Uri::name** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:101
+msgid ":ref:`int<api_int>`  **Uri::path** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:107
+msgid ":ref:`int<api_int>`  **Uri::query** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:113
+msgid ":ref:`int<api_int>`  **Uri::scheme** () const"
+msgstr ""
+
+#: ../../reference/uri.rst:119
+msgid ":ref:`int<api_int>`  **Uri::suffix** () const"
+msgstr ""

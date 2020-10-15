@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../reference/ray.rst:3
+msgid "Ray Class"
+msgstr ""
+
+#: ../../reference/ray.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/ray.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/ray.rst:11
+msgid "The Ray class represents a ray in 3D space."
+msgstr ""
+
+#: ../../reference/ray.rst:13
+msgid "Ray is an infinity line starting from position pos and going to some direction"
+msgstr ""
+
+#: ../../reference/ray.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/ray.rst:22
+msgid ":ref:`Ray<api_Ray_Ray>` (const Vector3 & position, const Vector3 & direction)"
+msgstr ""
+
+#: ../../reference/ray.rst:24
+#: ../../reference/ray.rst:34
+#: ../../reference/ray.rst:36
+msgid ":ref:`Ray<api_Ray>`"
+msgstr ""
+
+#: ../../reference/ray.rst:24
+msgid ":ref:`diffuse<api_Ray_diffuse>` (const Vector3 & normal, const Vector3 & point, areal  min, areal  max)"
+msgstr ""
+
+#: ../../reference/ray.rst:26
+#: ../../reference/ray.rst:28
+#: ../../reference/ray.rst:30
+#: ../../reference/ray.rst:32
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/ray.rst:26
+msgid ":ref:`intersect<api_Ray_intersect>` (const Vector3 & position, areal  radius, Vector3 * pt)"
+msgstr ""
+
+#: ../../reference/ray.rst:28
+msgid ":ref:`intersect<api_Ray_intersect>` (const Plane & plane, Vector3 * pt, bool  back = false)"
+msgstr ""
+
+#: ../../reference/ray.rst:30
+msgid ":ref:`intersect<api_Ray_intersect>` (const AABBox & box, Vector3 * pt)"
+msgstr ""
+
+#: ../../reference/ray.rst:32
+msgid ":ref:`intersect<api_Ray_intersect>` (const Vector3 & v1, const Vector3 & v2, const Vector3 & v3, Vector3 * pt, bool  back = false)"
+msgstr ""
+
+#: ../../reference/ray.rst:34
+msgid ":ref:`reflect<api_Ray_reflect>` (const Vector3 & normal, const Vector3 & point)"
+msgstr ""
+
+#: ../../reference/ray.rst:36
+msgid ":ref:`refract<api_Ray_refract>` (const Vector3 & normal, const Vector3 & point, areal  ior)"
+msgstr ""
+
+#: ../../reference/ray.rst:41
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/ray.rst:43
+msgid "None"
+msgstr ""
+
+#: ../../reference/ray.rst:47
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/ray.rst:51
+msgid "**Ray::Ray** (:ref:`Vector3<api_Vector3>` & *position*, :ref:`Vector3<api_Vector3>` & *direction*)"
+msgstr ""
+
+#: ../../reference/ray.rst:53
+msgid "Constructs a ray with *position* and *direction*."
+msgstr ""
+
+#: ../../reference/ray.rst:59
+msgid ":ref:`Ray<api_Ray>`  **Ray::diffuse** (:ref:`Vector3<api_Vector3>` & *normal*, :ref:`Vector3<api_Vector3>` & *point*, :ref:`areal<api_areal>`  *min*, :ref:`areal<api_areal>`  *max*)"
+msgstr ""
+
+#: ../../reference/ray.rst:61
+msgid "Returns a new Ray object wich result of random directed reflection of current ray. Diffuse reflection calculating by *normal* vector of reflection surface and intersection *point*. With *min* and *max* constraints."
+msgstr ""
+
+#: ../../reference/ray.rst:67
+msgid ":ref:`bool<api_bool>`  **Ray::intersect** (:ref:`Vector3<api_Vector3>` & *position*, :ref:`areal<api_areal>`  *radius*, :ref:`Vector3<api_Vector3>` * *pt*)"
+msgstr ""
+
+#: ../../reference/ray.rst:69
+msgid "Returns true if this ray intersects the given sphere at *position* and *radius*; otherwise returns false. Output argument *pt* contain a closest point of intersection."
+msgstr ""
+
+#: ../../reference/ray.rst:75
+msgid ":ref:`bool<api_bool>`  **Ray::intersect** (:ref:`Plane<api_Plane>` & *plane*, :ref:`Vector3<api_Vector3>` * *pt*, :ref:`bool<api_bool>`  *back* = false)"
+msgstr ""
+
+#: ../../reference/ray.rst:77
+msgid "Returns true if this ray intersects the given *plane*; otherwise returns false. Output argument *pt* contain a point of intersection. Argument *back* is a flag to use *back*face culling."
+msgstr ""
+
+#: ../../reference/ray.rst:83
+msgid ":ref:`bool<api_bool>`  **Ray::intersect** (:ref:`AABBox<api_AABBox>` & *box*, :ref:`Vector3<api_Vector3>` * *pt*)"
+msgstr ""
+
+#: ../../reference/ray.rst:85
+msgid "Returns true if this ray intersects the given Axis Aligned Bounding *box*; otherwise returns false. Output argument *pt* contain a point of intersection."
+msgstr ""
+
+#: ../../reference/ray.rst:91
+msgid ":ref:`bool<api_bool>`  **Ray::intersect** (:ref:`Vector3<api_Vector3>` & *v1*, :ref:`Vector3<api_Vector3>` & *v2*, :ref:`Vector3<api_Vector3>` & *v3*, :ref:`Vector3<api_Vector3>` * *pt*, :ref:`bool<api_bool>`  *back* = false)"
+msgstr ""
+
+#: ../../reference/ray.rst:93
+msgid "Returns true if this ray intersects the given triangle between *v1*, *v2* and *v3* points; otherwise returns false. Output argument *pt* contain a point of intersection. Argument *back* is a flag to use *back*face culling."
+msgstr ""
+
+#: ../../reference/ray.rst:99
+msgid ":ref:`Ray<api_Ray>`  **Ray::reflect** (:ref:`Vector3<api_Vector3>` & *normal*, :ref:`Vector3<api_Vector3>` & *point*)"
+msgstr ""
+
+#: ../../reference/ray.rst:101
+msgid "Returns a new Ray object wich result of reflection of current ray. Reflection calculating by *normal* vector of reflection surface and intersection *point*."
+msgstr ""
+
+#: ../../reference/ray.rst:107
+msgid ":ref:`Ray<api_Ray>`  **Ray::refract** (:ref:`Vector3<api_Vector3>` & *normal*, :ref:`Vector3<api_Vector3>` & *point*, :ref:`areal<api_areal>`  *ior*)"
+msgstr ""
+
+#: ../../reference/ray.rst:109
+msgid "Returns a new Ray object wich result of refraction of current ray. Refraction calculating by *normal* vector of reflection surface and intersection *point* with *ior* (Index of Refraction)."
+msgstr ""
