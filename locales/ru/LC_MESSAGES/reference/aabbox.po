@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/aabbox.rst:3
+msgid "AABBox Class"
+msgstr ""
+
+#: ../../reference/aabbox.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/aabbox.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/aabbox.rst:11
+msgid "The AABBox class represents a Axis Aligned Bounding Box in 3D space."
+msgstr ""
+
+#: ../../reference/aabbox.rst:13
+msgid ""
+"Bounded volume in space in the form of a rectangular parallelepiped, with"
+" a period parallel to the coordinate axes in the world system. When the "
+"object rotates, the AABB changes its dimensions, but it always remains "
+"oriented along the coordinate axes. Axis Aligned Bounding Box represented"
+" by center of box and extent."
+msgstr ""
+
+#: ../../reference/aabbox.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/aabbox.rst:22
+msgid ":ref:`AABBox<api_AABBox_AABBox>` ()"
+msgstr ""
+
+#: ../../reference/aabbox.rst:24
+msgid ""
+":ref:`AABBox<api_AABBox_AABBox>` (const Vector3 & center, const Vector3 &"
+" extent)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:26 ../../reference/aabbox.rst:28
+#: ../../reference/aabbox.rst:30 ../../reference/aabbox.rst:36
+#: ../../reference/aabbox.rst:38
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/aabbox.rst:26
+msgid ":ref:`box<api_AABBox_box>` (Vector3 & min, Vector3 & max) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:28
+msgid ":ref:`encapsulate<api_AABBox_encapsulate>` (const Vector3 & point)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:30
+msgid ":ref:`encapsulate<api_AABBox_encapsulate>` (const AABBox & box)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:32 ../../reference/aabbox.rst:34
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/aabbox.rst:32
+msgid ""
+":ref:`intersect<api_AABBox_intersect>` (const Vector3 & position, areal  "
+"radius) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:34
+msgid ""
+":ref:`intersect<api_AABBox_intersect>` (const Plane * planes, areal  "
+"count) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:36
+msgid ""
+":ref:`setBox<api_AABBox_setBox>` (const Vector3 & min, const Vector3 & "
+"max)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:38
+msgid ":ref:`setBox<api_AABBox_setBox>` (const Vector3 * points, int  number)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:40 ../../reference/aabbox.rst:42
+#: ../../reference/aabbox.rst:44
+msgid ":ref:`const AABBox<api_const AABBox>`"
+msgstr ""
+
+#: ../../reference/aabbox.rst:40
+msgid ":ref:`operator*<api_AABBox_operator*>` (areal  factor) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:42
+msgid ":ref:`operator*<api_AABBox_operator*>` (const Vector3 & vector) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:44
+msgid ":ref:`operator*<api_AABBox_operator*>` (const Matrix4 & matrix) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:49
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/aabbox.rst:51
+msgid "None"
+msgstr ""
+
+#: ../../reference/aabbox.rst:55
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/aabbox.rst:59
+msgid "**AABBox::AABBox** ()"
+msgstr ""
+
+#: ../../reference/aabbox.rst:61
+msgid ""
+"Constructs an bounding box with center (0, 0, 0) and extent (0.5, 0.5, "
+"0.5)."
+msgstr ""
+
+#: ../../reference/aabbox.rst:67
+msgid ""
+"**AABBox::AABBox** (:ref:`Vector3<api_Vector3>` & *center*, "
+":ref:`Vector3<api_Vector3>` & *extent*)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:69
+msgid "Constructs a bounding box with *center* and *extent*."
+msgstr ""
+
+#: ../../reference/aabbox.rst:75
+msgid ""
+":ref:`void<api_void>`  **AABBox::box** (:ref:`Vector3<api_Vector3>` & "
+"*min*, :ref:`Vector3<api_Vector3>` & *max*) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:77
+msgid "Returns *min* and *max* points of bounding box as output arguments."
+msgstr ""
+
+#: ../../reference/aabbox.rst:79
+msgid "**See also** setBox()."
+msgstr ""
+
+#: ../../reference/aabbox.rst:85
+msgid ""
+":ref:`void<api_void>`  **AABBox::encapsulate** "
+"(:ref:`Vector3<api_Vector3>` & *point*)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:87
+msgid "Grows the AABBox to include the *point*."
+msgstr ""
+
+#: ../../reference/aabbox.rst:93
+msgid ""
+":ref:`void<api_void>`  **AABBox::encapsulate** (:ref:`AABBox<api_AABBox>`"
+" & *box*)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:95
+msgid "Grow the AABBox to encapsulate the *box*."
+msgstr ""
+
+#: ../../reference/aabbox.rst:101
+msgid ""
+":ref:`bool<api_bool>`  **AABBox::intersect** (:ref:`Vector3<api_Vector3>`"
+" & *position*, :ref:`areal<api_areal>`  *radius*) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:103
+msgid ""
+"Returns true if this bounding box intersects the given sphere at "
+"*position* and *radius*; otherwise returns false."
+msgstr ""
+
+#: ../../reference/aabbox.rst:109
+msgid ""
+":ref:`bool<api_bool>`  **AABBox::intersect** (:ref:`Plane<api_Plane>` * "
+"*planes*, :ref:`areal<api_areal>`  *count*) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:111
+msgid ""
+"Returns true if this bounding box intersects the given *count* of "
+"*planes*; otherwise returns false."
+msgstr ""
+
+#: ../../reference/aabbox.rst:117
+msgid ""
+":ref:`void<api_void>`  **AABBox::setBox** (:ref:`Vector3<api_Vector3>` & "
+"*min*, :ref:`Vector3<api_Vector3>` & *max*)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:119
+msgid "Set current bounding box by *min* and *max* points."
+msgstr ""
+
+#: ../../reference/aabbox.rst:121
+msgid "**See also** box()."
+msgstr ""
+
+#: ../../reference/aabbox.rst:127
+msgid ""
+":ref:`void<api_void>`  **AABBox::setBox** (:ref:`Vector3<api_Vector3>` * "
+"*points*, :ref:`int<api_int>`  *number*)"
+msgstr ""
+
+#: ../../reference/aabbox.rst:129
+msgid ""
+"Set curent bounding box by provided array of *points* and *number* of "
+"them."
+msgstr ""
+
+#: ../../reference/aabbox.rst:135
+msgid ""
+":ref:`const AABBox<api_const AABBox>`  **AABBox::operator*** "
+"(:ref:`areal<api_areal>`  *factor*) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:137
+msgid "Returns a copy of this box, multiplied by the given *factor*."
+msgstr ""
+
+#: ../../reference/aabbox.rst:143
+msgid ""
+":ref:`const AABBox<api_const AABBox>`  **AABBox::operator*** "
+"(:ref:`Vector3<api_Vector3>` & *vector*) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:145
+msgid "Returns a copy of this box, multiplied by the given *vector*."
+msgstr ""
+
+#: ../../reference/aabbox.rst:151
+msgid ""
+":ref:`const AABBox<api_const AABBox>`  **AABBox::operator*** "
+"(:ref:`Matrix4<api_Matrix4>` & *matrix*) const"
+msgstr ""
+
+#: ../../reference/aabbox.rst:153
+msgid "Returns a copy of this box, multiplied by the given *matrix*."
+msgstr ""
+

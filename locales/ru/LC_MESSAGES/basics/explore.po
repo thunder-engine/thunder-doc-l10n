@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../basics/explore.rst:4
+msgid "World Editor Overview"
+msgstr ""
+
+#: ../../basics/explore.rst:6
+msgid "The World Editor tool is a main game development tool of Thunder Engine."
+msgstr ""
+
+#: ../../basics/explore.rst:8
+msgid ""
+"It can be found at the bin directory of your instalation path of Thunder "
+"Engine. ::"
+msgstr ""
+
+#: ../../basics/explore.rst:13
+#, python-format
+msgid ""
+"Where %version% is a version of the Thunder Engine for example 2019.4, "
+"%platform% can be windows, linux or macos accordingly your operating "
+"system."
+msgstr ""
+
+#: ../../basics/explore.rst:18
+msgid "User Interface"
+msgstr ""
+
+#: ../../basics/explore.rst:20
+msgid ""
+"When you start World Editor, it opens to the **Welcome** screen, where "
+"you can:"
+msgstr ""
+
+#: ../../basics/explore.rst:22
+msgid "Open recent projects"
+msgstr ""
+
+#: ../../basics/explore.rst:23
+msgid "Create new and import existing projects"
+msgstr ""
+
+#: ../../basics/explore.rst:24
+msgid "Read news from the Thunder Engine project"
+msgstr ""
+
+#: ../../basics/explore.rst:30
+msgid ""
+"Once you have created a new project or opened an existing one, you will "
+"be taken to the main screen."
+msgstr ""
+
+#: ../../basics/explore.rst:32
+msgid ""
+"The main screen contains a flexible workspace which developers can adopt "
+"for their needs."
+msgstr ""
+
+#: ../../basics/explore.rst:38
+msgid "The main screen contains several main zones:"
+msgstr ""
+
+#: ../../basics/explore.rst:40
+msgid ""
+"**Viewport** - allows you to add and remove objects on scene, control "
+"position and rotation and do other basic operations"
+msgstr ""
+
+#: ../../basics/explore.rst:41
+msgid ""
+"**Properties** - created for fine-tuning of all object properties "
+"(assigned material, texture, color and many more)"
+msgstr ""
+
+#: ../../basics/explore.rst:42
+msgid ""
+"**Content Browser** - contains the list of assets which available for "
+"using in your project"
+msgstr ""
+
+#: ../../basics/explore.rst:43
+msgid ""
+"**Components** - contains the list of components which are currently "
+"available for placing on the scene"
+msgstr ""
+
+#: ../../basics/explore.rst:44
+msgid ""
+"**Hierarchy** - represents the list of objects which placed on scene and "
+"relations between of them"
+msgstr ""
+

@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/component.rst:3
+msgid "Component Class"
+msgstr ""
+
+#: ../../reference/component.rst:5
+msgid "Inherited: :ref:`Object<api_Object>`"
+msgstr ""
+
+#: ../../reference/component.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/component.rst:11
+msgid "Base class for everything attached to Actor."
+msgstr ""
+
+#: ../../reference/component.rst:13
+msgid ""
+"The Component class is a base class for each aspect of the actor, and how"
+" it interacts with the world."
+msgstr ""
+
+#: ../../reference/component.rst:15
+msgid ""
+"Note: This class must be a superclass only and shouldn't be created "
+"manually."
+msgstr ""
+
+#: ../../reference/component.rst:21
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/component.rst:24
+msgid ":ref:`Component<api_Component_Component>` ()"
+msgstr ""
+
+#: ../../reference/component.rst:26
+msgid ":ref:`~Component<api_Component_~Component>` ()"
+msgstr ""
+
+#: ../../reference/component.rst:28
+msgid ":ref:`Actor<api_Actor>` *"
+msgstr ""
+
+#: ../../reference/component.rst:28
+msgid ":ref:`actor<api_Component_actor>` () const"
+msgstr ""
+
+#: ../../reference/component.rst:30
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/component.rst:30
+msgid ":ref:`isEnabled<api_Component_isEnabled>` () const"
+msgstr ""
+
+#: ../../reference/component.rst:32
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/component.rst:32
+msgid ":ref:`setEnabled<api_Component_setEnabled>` (bool  enabled)"
+msgstr ""
+
+#: ../../reference/component.rst:34
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/component.rst:34
+msgid ":ref:`tr<api_Component_tr>` (const int & )"
+msgstr ""
+
+#: ../../reference/component.rst:39
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/component.rst:42
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` *"
+msgstr ""
+
+#: ../../reference/component.rst:42
+msgid ":ref:`methods<api_Component_methods>` ()"
+msgstr ""
+
+#: ../../reference/component.rst:44
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` *"
+msgstr ""
+
+#: ../../reference/component.rst:44
+msgid ":ref:`properties<api_Component_properties>` ()"
+msgstr ""
+
+#: ../../reference/component.rst:49
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/component.rst:53
+msgid "**Component::Component** ()"
+msgstr ""
+
+#: ../../reference/component.rst:55
+msgid "Default constructs an instance of Component."
+msgstr ""
+
+#: ../../reference/component.rst:61
+msgid "**Component::~Component** ()"
+msgstr ""
+
+#: ../../reference/component.rst:63
+msgid "Destroys the instance of Component. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/component.rst:69
+msgid ":ref:`Actor<api_Actor>` * **Component::actor** () const"
+msgstr ""
+
+#: ../../reference/component.rst:71
+msgid "Returns a pointer to the actor to which the component is attached."
+msgstr ""
+
+#: ../../reference/component.rst:77
+msgid ":ref:`bool<api_bool>`  **Component::isEnabled** () const"
+msgstr ""
+
+#: ../../reference/component.rst:79
+msgid "Returns true if the component is enabled; otherwise returns false."
+msgstr ""
+
+#: ../../reference/component.rst:85
+msgid ""
+":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` * "
+"**Component::methods** ()"
+msgstr ""
+
+#: ../../reference/component.rst:91
+msgid ""
+":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` * "
+"**Component::properties** ()"
+msgstr ""
+
+#: ../../reference/component.rst:97
+msgid ""
+":ref:`void<api_void>`  **Component::setEnabled** (:ref:`bool<api_bool>`  "
+"*enabled*)"
+msgstr ""
+
+#: ../../reference/component.rst:99
+msgid "Sets current state of component to *enabled* or disabled."
+msgstr ""
+
+#: ../../reference/component.rst:101
+msgid ""
+"**Note:** The disabled component will be created but not affect the "
+"Actor. For example, MeshRender component will not draw a mesh."
+msgstr ""
+
+#: ../../reference/component.rst:103
+msgid "**See also** isEnabled()."
+msgstr ""
+
+#: ../../reference/component.rst:109
+msgid ":ref:`int<api_int>`  **Component::tr** (:ref:`int<api_int>` & **)"
+msgstr ""
+
+#: ../../reference/component.rst:111
+msgid ""
+"Returns **a **translated **version **of **source **text; **otherwise "
+"**returns **source **text **if **no **appropriate **translated **string "
+"**is **available."
+msgstr ""
+

@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/objectsystem.rst:3
+msgid "ObjectSystem Class"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:5
+msgid "Inherited: :ref:`Object<api_Object>`"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:11
+msgid "The ObjectSystem responds for object management."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:13
+msgid ""
+"ObjectSystem helps to developers create new instances and "
+"serialize/deserialize them on disc or in memory."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:22
+msgid ":ref:`ObjectSystem<api_ObjectSystem_ObjectSystem>` ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:24
+msgid ":ref:`~ObjectSystem<api_ObjectSystem_~ObjectSystem>` ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:26
+msgid ":ref:`ObjectSystem::GroupMap<api_ObjectSystem::GroupMap>`"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:26
+msgid ":ref:`factories<api_ObjectSystem_factories>` () const"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:28 ../../reference/objectsystem.rst:30
+#: ../../reference/objectsystem.rst:32 ../../reference/objectsystem.rst:48
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:28
+msgid ""
+":ref:`factoryAdd<api_ObjectSystem_factoryAdd>` (const int & group, const "
+"MetaObject * meta)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:30
+msgid ":ref:`factoryRemove<api_ObjectSystem_factoryRemove>` (const int & group)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:32
+msgid ":ref:`processEvents<api_ObjectSystem_processEvents>` ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:37
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:40
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:40
+msgid ":ref:`generateUUID<api_ObjectSystem_generateUUID>` ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:42
+msgid ":ref:`ObjectSystem::FactoryPair<api_ObjectSystem::FactoryPair>` *"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:42
+msgid ":ref:`metaFactory<api_ObjectSystem_metaFactory>` (const int & uri)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:44
+msgid ":ref:`T<api_T>` *"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:44
+msgid ""
+":ref:`objectCreate<api_ObjectSystem_objectCreate>` (const int & name = "
+"..., Object * parent = nullptr)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:46 ../../reference/objectsystem.rst:50
+msgid ":ref:`Object<api_Object>` *"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:46
+msgid ""
+":ref:`objectCreate<api_ObjectSystem_objectCreate>` (const int & uri, "
+"const int & name = ..., Object * parent = nullptr)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:48
+msgid ""
+":ref:`replaceUUID<api_ObjectSystem_replaceUUID>` (Object * object, int  "
+"uuid)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:50
+msgid ""
+":ref:`toObject<api_ObjectSystem_toObject>` (const Variant & variant, "
+"Object * root = nullptr)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:52
+msgid ":ref:`Variant<api_Variant>`"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:52
+msgid ":ref:`toVariant<api_ObjectSystem_toVariant>` (const Object * object)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:57
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:61
+msgid "**ObjectSystem::ObjectSystem** ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:63
+msgid "Constructs ObjectSystem."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:69
+msgid "**ObjectSystem::~ObjectSystem** ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:71
+msgid "Destructs ObjectSystem, related objects and registered object factories."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:77
+msgid ""
+":ref:`ObjectSystem::GroupMap<api_ObjectSystem::GroupMap>`  "
+"**ObjectSystem::factories** () const"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:79
+msgid "Returns all registered classes."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:85
+msgid ""
+":ref:`void<api_void>`  **ObjectSystem::factoryAdd** (:ref:`int<api_int>` "
+"& *group*, :ref:`MetaObject<api_MetaObject>` * *meta*)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:91
+msgid ""
+":ref:`void<api_void>`  **ObjectSystem::factoryRemove** "
+"(:ref:`int<api_int>` & *group*)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:97
+msgid ":ref:`int<api_int>`  **ObjectSystem::generateUUID** ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:99
+msgid "Returns the new unique ID based on random number generator."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:105
+msgid ""
+":ref:`ObjectSystem::FactoryPair<api_ObjectSystem::FactoryPair>` * "
+"**ObjectSystem::metaFactory** (:ref:`int<api_int>` & *uri*)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:107
+msgid "Returns MetaObject for registered factory by provided *uri*."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:113
+msgid ""
+":ref:`T<api_T>` * **ObjectSystem::objectCreate** (:ref:`int<api_int>` & "
+"*name* = ..., :ref:`Object<api_Object>` * *parent* = nullptr)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:119
+msgid ""
+":ref:`Object<api_Object>` * **ObjectSystem::objectCreate** "
+"(:ref:`int<api_int>` & *uri*, :ref:`int<api_int>` & *name* = ..., "
+":ref:`Object<api_Object>` * *parent* = nullptr)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:121
+msgid ""
+"Returns new instance of type represented in *uri* and *name* as child of "
+"*parent* object."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:123
+msgid ""
+"**Note:** Class represented as *uri* should be registered first via "
+"factoryAdd()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:125
+msgid "**See also** factoryAdd() and factoryRemove()."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:131
+msgid ":ref:`void<api_void>`  **ObjectSystem::processEvents** ()"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:133
+msgid "Updates all related objects."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:139
+msgid ""
+":ref:`void<api_void>`  **ObjectSystem::replaceUUID** "
+"(:ref:`Object<api_Object>` * *object*, :ref:`int<api_int>`  *uuid*)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:141
+msgid "Replaces current *uuid* of the *object* with the new one."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:147
+msgid ""
+":ref:`Object<api_Object>` * **ObjectSystem::toObject** "
+"(:ref:`Variant<api_Variant>` & *variant*, :ref:`Object<api_Object>` * "
+"*root* = nullptr)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:149
+msgid ""
+"Returns object deserialized from *variant* based representation. The "
+"Variant representation can be loaded from BSON or JSON formats or "
+"retrieved from memory. Deserialization will try to restore objects "
+"hierarchy with *root* as parent, its properties and connections."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:155
+msgid ""
+":ref:`Variant<api_Variant>`  **ObjectSystem::toVariant** "
+"(:ref:`Object<api_Object>` * *object*)"
+msgstr ""
+
+#: ../../reference/objectsystem.rst:157
+msgid ""
+"Returns serialized to Variant version of *object* inherited from Object "
+"class. This method saves all *object* property values, active connections"
+" and necessary parameters."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:159
+msgid "**Note:** All childs of *object* will be also serialized."
+msgstr ""
+
+#: ../../reference/objectsystem.rst:161
+msgid ""
+"The returned value can be saved on disk in BSON or JSON form or keep it "
+"in memory. Developers is able to save own data using "
+"Object::saveUserData() mechanism."
+msgstr ""
+

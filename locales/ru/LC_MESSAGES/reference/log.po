@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/log.rst:3
+msgid "Log Class"
+msgstr ""
+
+#: ../../reference/log.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/log.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/log.rst:11
+msgid "The Log class provides an output stream for logging information."
+msgstr ""
+
+#: ../../reference/log.rst:13
+msgid ""
+"The Log is used whenever the developer needs to write out debugging or "
+"tracing information to a file or console."
+msgstr ""
+
+#: ../../reference/log.rst:15
+msgid "Common usecase:"
+msgstr ""
+
+#: ../../reference/log.rst:21
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/log.rst:24
+msgid ":ref:`Log<api_Log_Log>` (Log::LogTypes  type)"
+msgstr ""
+
+#: ../../reference/log.rst:26
+msgid ":ref:`~Log<api_Log_~Log>` ()"
+msgstr ""
+
+#: ../../reference/log.rst:28 ../../reference/log.rst:30
+#: ../../reference/log.rst:32 ../../reference/log.rst:34
+#: ../../reference/log.rst:36
+msgid ":ref:`Log<api_Log>` &"
+msgstr ""
+
+#: ../../reference/log.rst:28
+msgid ":ref:`operator<<<api_Log_operator<<>` (bool  b)"
+msgstr ""
+
+#: ../../reference/log.rst:30
+msgid ":ref:`operator<<<api_Log_operator<<>` (int  i)"
+msgstr ""
+
+#: ../../reference/log.rst:32
+msgid ":ref:`operator<<<api_Log_operator<<>` (float  f)"
+msgstr ""
+
+#: ../../reference/log.rst:34
+msgid ":ref:`operator<<<api_Log_operator<<>` (double  d)"
+msgstr ""
+
+#: ../../reference/log.rst:36
+msgid ":ref:`operator<<<api_Log_operator<<>` (const char * string)"
+msgstr ""
+
+#: ../../reference/log.rst:41
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/log.rst:44
+msgid ":ref:`LogHandler<api_LogHandler>` *"
+msgstr ""
+
+#: ../../reference/log.rst:44
+msgid ":ref:`handler<api_Log_handler>` ()"
+msgstr ""
+
+#: ../../reference/log.rst:46 ../../reference/log.rst:48
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/log.rst:46
+msgid ":ref:`overrideHandler<api_Log_overrideHandler>` (LogHandler * handler)"
+msgstr ""
+
+#: ../../reference/log.rst:48
+msgid ":ref:`setLogLevel<api_Log_setLogLevel>` (Log::LogTypes  level)"
+msgstr ""
+
+#: ../../reference/log.rst:53
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/log.rst:57
+msgid "**Log::Log** (:ref:`Log::LogTypes<api_Log::LogTypes>`  *type*)"
+msgstr ""
+
+#: ../../reference/log.rst:59
+msgid "Constructs a log stream that writes to the handler for the message *type*."
+msgstr ""
+
+#: ../../reference/log.rst:65
+msgid "**Log::~Log** ()"
+msgstr ""
+
+#: ../../reference/log.rst:67
+msgid "Flushes any pending data to be written and destroys the log stream."
+msgstr ""
+
+#: ../../reference/log.rst:73
+msgid ":ref:`LogHandler<api_LogHandler>` * **Log::handler** ()"
+msgstr ""
+
+#: ../../reference/log.rst:75
+msgid "Returns LogHandler object if present; otherwise returns nullptr."
+msgstr ""
+
+#: ../../reference/log.rst:81
+msgid ""
+":ref:`void<api_void>`  **Log::overrideHandler** "
+"(:ref:`LogHandler<api_LogHandler>` * *handler*)"
+msgstr ""
+
+#: ../../reference/log.rst:83
+msgid ""
+"Set a new Log *handler*. This method can be used in case if a developer "
+"would need to move logging stream to someplace. For example to the "
+"console."
+msgstr ""
+
+#: ../../reference/log.rst:89
+msgid ""
+":ref:`void<api_void>`  **Log::setLogLevel** "
+"(:ref:`Log::LogTypes<api_Log::LogTypes>`  *level*)"
+msgstr ""
+
+#: ../../reference/log.rst:91
+msgid ""
+"Set current log *level* output. Messages wich are below this *level* will"
+" be descarded."
+msgstr ""
+
+#: ../../reference/log.rst:97
+msgid ":ref:`Log<api_Log>` & **Log::operator<<** (:ref:`bool<api_bool>`  *b*)"
+msgstr ""
+
+#: ../../reference/log.rst:99
+msgid ""
+"Writes the *b*oolean value, *b*, to the stream and returns a reference to"
+" the stream."
+msgstr ""
+
+#: ../../reference/log.rst:105
+msgid ":ref:`Log<api_Log>` & **Log::operator<<** (:ref:`int<api_int>`  *i*)"
+msgstr ""
+
+#: ../../reference/log.rst:107
+msgid ""
+"Writes the singed 64 bit *i*nteger value, *i*, to the stream and returns "
+"a reference to the stream."
+msgstr ""
+
+#: ../../reference/log.rst:113
+msgid ":ref:`Log<api_Log>` & **Log::operator<<** (:ref:`float<api_float>`  *f*)"
+msgstr ""
+
+#: ../../reference/log.rst:115
+msgid ""
+"Writes the *f*loat value, *f*, to the stream and returns a reference to "
+"the stream."
+msgstr ""
+
+#: ../../reference/log.rst:121
+msgid ":ref:`Log<api_Log>` & **Log::operator<<** (:ref:`double<api_double>`  *d*)"
+msgstr ""
+
+#: ../../reference/log.rst:123
+msgid ""
+"Writes the float value with *d*ouble precision, *d*, to the stream and "
+"returns a reference to the stream."
+msgstr ""
+
+#: ../../reference/log.rst:129
+msgid ""
+":ref:`Log<api_Log>` & **Log::operator<<** (:ref:`char<api_char>` * "
+"*string*)"
+msgstr ""
+
+#: ../../reference/log.rst:131
+msgid ""
+"Writes the '\\0'-terminated *string*, to the stream and returns a "
+"reference to the stream."
+msgstr ""
+

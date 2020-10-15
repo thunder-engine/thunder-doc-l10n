@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/blenderanimation.rst:3
+msgid "BlenderAnimation Class"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:5
+msgid "Inherited: :ref:`Animation<api_Animation>`"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:11
+msgid ""
+"The BlenderAnimation class provides mechanism for blending of an "
+"animation tracks."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:13
+msgid ""
+"The BlenderAnimation helps to developers to mix animation tracks with "
+"various mixing parameters."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:22
+msgid ":ref:`BlenderAnimation<api_BlenderAnimation_BlenderAnimation>` ()"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:24
+msgid ":ref:`~BlenderAnimation<api_BlenderAnimation_~BlenderAnimation>` ()"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:26
+#: ../../reference/blenderanimation.rst:30
+msgid ":ref:`AnimationCurve<api_AnimationCurve>` *"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:26
+msgid ""
+":ref:`beginCurve<api_BlenderAnimation_beginCurve>` (int  component = 0) "
+"const"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:28
+msgid ":ref:`Variant<api_Variant>`"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:28
+msgid ":ref:`defaultValue<api_BlenderAnimation_defaultValue>` ()"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:30
+msgid ":ref:`endCurve<api_BlenderAnimation_endCurve>` (int  component = 0) const"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:32
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:32
+msgid ":ref:`loopDuration<api_BlenderAnimation_loopDuration>` () const"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:34
+#: ../../reference/blenderanimation.rst:36
+#: ../../reference/blenderanimation.rst:38
+#: ../../reference/blenderanimation.rst:40
+#: ../../reference/blenderanimation.rst:42
+#: ../../reference/blenderanimation.rst:44
+#: ../../reference/blenderanimation.rst:46
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:34
+msgid ""
+":ref:`setBeginCurve<api_BlenderAnimation_setBeginCurve>` (AnimationCurve "
+"* curve, int  component = 0)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:36
+msgid ":ref:`setCurrentTime<api_BlenderAnimation_setCurrentTime>` (int  msecs)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:38
+msgid ""
+":ref:`setCurrentValue<api_BlenderAnimation_setCurrentValue>` (const "
+"Variant & value)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:40
+msgid ""
+":ref:`setDefaultValue<api_BlenderAnimation_setDefaultValue>` (const "
+"Variant & value)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:42
+msgid ""
+":ref:`setEndCurve<api_BlenderAnimation_setEndCurve>` (AnimationCurve * "
+"curve, int  component = 0)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:44
+msgid ":ref:`setOffset<api_BlenderAnimation_setOffset>` (float  offset)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:46
+msgid ""
+":ref:`setTransitionTime<api_BlenderAnimation_setTransitionTime>` (float  "
+"time)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:51
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:53
+msgid "None"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:57
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:61
+msgid "**BlenderAnimation::BlenderAnimation** ()"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:63
+msgid "Default constructs an instance of BlenderAnimation."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:69
+msgid "**BlenderAnimation::~BlenderAnimation** ()"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:71
+msgid "Destroys the instance of BlenderAnimation. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:77
+msgid ""
+":ref:`AnimationCurve<api_AnimationCurve>` * "
+"**BlenderAnimation::beginCurve** (:ref:`int<api_int>`  *component* = 0) "
+"const"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:79
+msgid "**See also** setBeginCurve()."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:85
+msgid ":ref:`Variant<api_Variant>`  **BlenderAnimation::defaultValue** ()"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:87
+msgid ""
+"Returns the default value for the animated curve. This value will be used"
+" if no animation data is available at the current time frame."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:89
+msgid "**See also** setDefaultValue()."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:95
+msgid ""
+":ref:`AnimationCurve<api_AnimationCurve>` * "
+"**BlenderAnimation::endCurve** (:ref:`int<api_int>`  *component* = 0) "
+"const"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:97
+msgid "**See also** setEndCurve()."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:103
+msgid ":ref:`int<api_int>`  **BlenderAnimation::loopDuration** () const"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:105
+msgid "Returns the duration of the animation (in milliseconds)."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:111
+msgid ""
+":ref:`void<api_void>`  **BlenderAnimation::setBeginCurve** "
+"(:ref:`AnimationCurve<api_AnimationCurve>` * *curve*, :ref:`int<api_int>`"
+"  *component* = 0)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:113
+msgid "**See also** beginCurve()."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:119
+msgid ""
+":ref:`void<api_void>`  **BlenderAnimation::setCurrentTime** "
+"(:ref:`int<api_int>`  *msecs*)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:121
+msgid "This is an overloaded function."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:123
+msgid ""
+"This function interpolates animated Variant value from one KeyFrame to "
+"another."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:129
+msgid ""
+":ref:`void<api_void>`  **BlenderAnimation::setCurrentValue** "
+"(:ref:`Variant<api_Variant>` & *value*)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:131
+msgid "Sets the new current *value* for the animated Variant."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:137
+msgid ""
+":ref:`void<api_void>`  **BlenderAnimation::setDefaultValue** "
+"(:ref:`Variant<api_Variant>` & *value*)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:139
+msgid ""
+"Sets the default *value* for the animated curve. This *value* will be "
+"used if no animation data is available at the current time frame."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:141
+msgid "**See also** defaultValue()."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:147
+msgid ""
+":ref:`void<api_void>`  **BlenderAnimation::setEndCurve** "
+"(:ref:`AnimationCurve<api_AnimationCurve>` * *curve*, :ref:`int<api_int>`"
+"  *component* = 0)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:149
+msgid "**See also** endCurve()."
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:155
+msgid ""
+":ref:`void<api_void>`  **BlenderAnimation::setOffset** "
+"(:ref:`float<api_float>`  *offset*)"
+msgstr ""
+
+#: ../../reference/blenderanimation.rst:161
+msgid ""
+":ref:`void<api_void>`  **BlenderAnimation::setTransitionTime** "
+"(:ref:`float<api_float>`  *time*)"
+msgstr ""
+

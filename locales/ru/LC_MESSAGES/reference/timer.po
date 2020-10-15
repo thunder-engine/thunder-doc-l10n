@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/timer.rst:3
+msgid "Timer Class"
+msgstr ""
+
+#: ../../reference/timer.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/timer.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/timer.rst:11
+msgid "The interface to get time information from Thunder Engine."
+msgstr ""
+
+#: ../../reference/timer.rst:13
+msgid ""
+"The Timer class helps to make your game more smooth and accurate. This "
+"class is used in all systems which doing any animation Using deltaTime() "
+"method developers are able to calculate a logic based on delays for "
+"example shots or movements of your character. Time scale value can be "
+"used for the slow-motion effects because it applied for all deltaTime() "
+"values."
+msgstr ""
+
+#: ../../reference/timer.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/timer.rst:21
+msgid "None"
+msgstr ""
+
+#: ../../reference/timer.rst:25
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/timer.rst:28 ../../reference/timer.rst:34
+#: ../../reference/timer.rst:38
+msgid ":ref:`float<api_float>`"
+msgstr ""
+
+#: ../../reference/timer.rst:28
+msgid ":ref:`deltaTime<api_Timer_deltaTime>` ()"
+msgstr ""
+
+#: ../../reference/timer.rst:30 ../../reference/timer.rst:32
+#: ../../reference/timer.rst:36 ../../reference/timer.rst:40
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/timer.rst:30
+msgid ":ref:`init<api_Timer_init>` ()"
+msgstr ""
+
+#: ../../reference/timer.rst:32
+msgid ":ref:`reset<api_Timer_reset>` ()"
+msgstr ""
+
+#: ../../reference/timer.rst:34
+msgid ":ref:`scale<api_Timer_scale>` ()"
+msgstr ""
+
+#: ../../reference/timer.rst:36
+msgid ":ref:`setScale<api_Timer_setScale>` (float  scale)"
+msgstr ""
+
+#: ../../reference/timer.rst:38
+msgid ":ref:`time<api_Timer_time>` ()"
+msgstr ""
+
+#: ../../reference/timer.rst:40
+msgid ":ref:`update<api_Timer_update>` ()"
+msgstr ""
+
+#: ../../reference/timer.rst:45
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/timer.rst:49
+msgid ":ref:`float<api_float>`  **Timer::deltaTime** ()"
+msgstr ""
+
+#: ../../reference/timer.rst:51
+msgid "Returns the time in seconds since the last frame."
+msgstr ""
+
+#: ../../reference/timer.rst:53 ../../reference/timer.rst:103
+msgid ""
+"**Note:** This value is updated in each frame. In case of calling "
+"multiple times in a single frame will return the same result."
+msgstr ""
+
+#: ../../reference/timer.rst:59
+msgid ":ref:`void<api_void>`  **Timer::init** ()"
+msgstr ""
+
+#: ../../reference/timer.rst:61
+msgid "Initialize the Timer module."
+msgstr ""
+
+#: ../../reference/timer.rst:63
+msgid "**Note:** This method calls internally and must not be called manually."
+msgstr ""
+
+#: ../../reference/timer.rst:69
+msgid ":ref:`void<api_void>`  **Timer::reset** ()"
+msgstr ""
+
+#: ../../reference/timer.rst:71
+msgid "Resets all Timer related variables."
+msgstr ""
+
+#: ../../reference/timer.rst:73 ../../reference/timer.rst:113
+msgid ""
+"**Note:** Usually, this method calls internally and must not be called "
+"manually."
+msgstr ""
+
+#: ../../reference/timer.rst:79
+msgid ":ref:`float<api_float>`  **Timer::scale** ()"
+msgstr ""
+
+#: ../../reference/timer.rst:81
+msgid "Return the time scale at which the time is passing."
+msgstr ""
+
+#: ../../reference/timer.rst:83
+msgid "**See also** setScale()."
+msgstr ""
+
+#: ../../reference/timer.rst:89
+msgid ""
+":ref:`void<api_void>`  **Timer::setScale** (:ref:`float<api_float>`  "
+"*scale*)"
+msgstr ""
+
+#: ../../reference/timer.rst:91
+msgid "Sets the time *scale* at which the time is passing."
+msgstr ""
+
+#: ../../reference/timer.rst:93
+msgid "**See also** *scale*()."
+msgstr ""
+
+#: ../../reference/timer.rst:99
+msgid ":ref:`float<api_float>`  **Timer::time** ()"
+msgstr ""
+
+#: ../../reference/timer.rst:101
+msgid "Returns the time in seconds since the start of the game."
+msgstr ""
+
+#: ../../reference/timer.rst:109
+msgid ":ref:`void<api_void>`  **Timer::update** ()"
+msgstr ""
+
+#: ../../reference/timer.rst:111
+msgid "Updates all Timer related variables."
+msgstr ""
+

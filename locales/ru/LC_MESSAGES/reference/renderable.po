@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/renderable.rst:3
+msgid "Renderable Class"
+msgstr ""
+
+#: ../../reference/renderable.rst:5
+msgid "Inherited: :ref:`NativeBehaviour<api_NativeBehaviour>`"
+msgstr ""
+
+#: ../../reference/renderable.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/renderable.rst:11
+msgid "Base class for every object which can be drawn on the screen."
+msgstr ""
+
+#: ../../reference/renderable.rst:13
+msgid ""
+"Note: This class must be a superclass only and shouldn't be created "
+"manually."
+msgstr ""
+
+#: ../../reference/renderable.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/renderable.rst:22
+msgid ":ref:`Renderable<api_Renderable_Renderable>` ()"
+msgstr ""
+
+#: ../../reference/renderable.rst:24
+msgid ":ref:`AABBox<api_AABBox>`"
+msgstr ""
+
+#: ../../reference/renderable.rst:24
+msgid ":ref:`bound<api_Renderable_bound>` () const"
+msgstr ""
+
+#: ../../reference/renderable.rst:29
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/renderable.rst:32
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` *"
+msgstr ""
+
+#: ../../reference/renderable.rst:32
+msgid ":ref:`methods<api_Renderable_methods>` ()"
+msgstr ""
+
+#: ../../reference/renderable.rst:34
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` *"
+msgstr ""
+
+#: ../../reference/renderable.rst:34
+msgid ":ref:`properties<api_Renderable_properties>` ()"
+msgstr ""
+
+#: ../../reference/renderable.rst:39
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/renderable.rst:43
+msgid "**Renderable::Renderable** ()"
+msgstr ""
+
+#: ../../reference/renderable.rst:45
+msgid "Default constructs an instance of Renderable."
+msgstr ""
+
+#: ../../reference/renderable.rst:51
+msgid ":ref:`AABBox<api_AABBox>`  **Renderable::bound** () const"
+msgstr ""
+
+#: ../../reference/renderable.rst:53
+msgid "Returns a bound box of the renderable object."
+msgstr ""
+
+#: ../../reference/renderable.rst:59
+msgid ""
+":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` * "
+"**Renderable::methods** ()"
+msgstr ""
+
+#: ../../reference/renderable.rst:65
+msgid ""
+":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` * "
+"**Renderable::properties** ()"
+msgstr ""
+

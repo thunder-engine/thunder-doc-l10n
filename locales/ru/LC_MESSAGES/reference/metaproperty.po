@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/metaproperty.rst:3
+msgid "MetaProperty Class"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:11
+msgid ""
+"The MetaProperty provides an interface to retrieve information about "
+"object property at runtime."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:13
+msgid ""
+"This class is a part of Object-Introspection-Mechanism. MetaProperty "
+"provides information about one particular class property. Developers are "
+"able to retrieve information about property type, read and write values."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:15
+msgid ""
+"To make properties visible in introspection mechanism, developers must "
+"declare those under A_PROPERTIES() macro."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:21
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:24
+msgid ""
+":ref:`MetaProperty<api_MetaProperty_MetaProperty>` (const "
+"MetaProperty::Table * table)"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:26
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:26
+msgid ":ref:`isValid<api_MetaProperty_isValid>` () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:28
+msgid ":ref:`const char<api_const char>` *"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:28
+msgid ":ref:`name<api_MetaProperty_name>` () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:30
+msgid ":ref:`Variant<api_Variant>`"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:30
+msgid ":ref:`read<api_MetaProperty_read>` (const Object * object) const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:32
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` *"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:32
+msgid ":ref:`table<api_MetaProperty_table>` () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:34
+msgid ":ref:`const MetaType<api_const MetaType>`"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:34
+msgid ":ref:`type<api_MetaProperty_type>` () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:36 ../../reference/metaproperty.rst:38
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:36
+msgid ""
+":ref:`write<api_MetaProperty_write>` (Object * object, const Variant & "
+"value) const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:38
+msgid ""
+":ref:`write<api_MetaProperty_write>` (Object * object, const T & value) "
+"const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:43
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:45
+msgid "None"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:49
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:53
+msgid ""
+"**MetaProperty::MetaProperty** "
+"(:ref:`MetaProperty::Table<api_MetaProperty::Table>` * *table*)"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:55
+msgid ""
+"Constructs MetaProperty object wich will contain information provided in "
+"a *table*."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:61
+msgid ":ref:`bool<api_bool>`  **MetaProperty::isValid** () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:63
+msgid "Returns true if property is valid; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:69
+msgid ":ref:`const char<api_const char>` * **MetaProperty::name** () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:71
+msgid "Returns a name of method."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:77
+msgid ""
+":ref:`Variant<api_Variant>`  **MetaProperty::read** "
+"(:ref:`Object<api_Object>` * *object*) const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:79
+msgid ""
+"Returns the value as Variant which contain current property of provided "
+"*object*."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:85
+msgid ""
+":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` * "
+"**MetaProperty::table** () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:87
+msgid "Returns property information table."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:93
+msgid ":ref:`const MetaType<api_const MetaType>`  **MetaProperty::type** () const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:95
+msgid "Returns a type of property."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:101
+msgid ""
+":ref:`void<api_void>`  **MetaProperty::write** (:ref:`Object<api_Object>`"
+" * *object*, :ref:`Variant<api_Variant>` & *value*) const"
+msgstr ""
+
+#: ../../reference/metaproperty.rst:103
+msgid "Tries to write a *value* as Variant to provided *object*."
+msgstr ""
+
+#: ../../reference/metaproperty.rst:109
+msgid ""
+":ref:`void<api_void>`  **MetaProperty::write** (:ref:`Object<api_Object>`"
+" * *object*, :ref:`T<api_T>` & *value*) const"
+msgstr ""
+

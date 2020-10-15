@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/spriterender.rst:3
+msgid "SpriteRender Class"
+msgstr ""
+
+#: ../../reference/spriterender.rst:5
+msgid "Inherited: :ref:`Renderable<api_Renderable>`"
+msgstr ""
+
+#: ../../reference/spriterender.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/spriterender.rst:11
+msgid "Draws a sprite for the 2D graphics."
+msgstr ""
+
+#: ../../reference/spriterender.rst:13
+msgid ""
+"The SpriteRender component allows you to display images as sprites to use"
+" in both 2D and 3D scenes."
+msgstr ""
+
+#: ../../reference/spriterender.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/spriterender.rst:22
+msgid ":ref:`SpriteRender<api_SpriteRender_SpriteRender>` ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:24
+msgid ":ref:`~SpriteRender<api_SpriteRender_~SpriteRender>` ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:26
+msgid ":ref:`Vector4<api_Vector4>`"
+msgstr ""
+
+#: ../../reference/spriterender.rst:26
+msgid ":ref:`color<api_SpriteRender_color>` () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:28
+msgid ":ref:`Material<api_Material>` *"
+msgstr ""
+
+#: ../../reference/spriterender.rst:28
+msgid ":ref:`material<api_SpriteRender_material>` () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:30
+msgid ":ref:`Mesh<api_Mesh>` *"
+msgstr ""
+
+#: ../../reference/spriterender.rst:30
+msgid ":ref:`mesh<api_SpriteRender_mesh>` () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:32 ../../reference/spriterender.rst:34
+#: ../../reference/spriterender.rst:36
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/spriterender.rst:32
+msgid ":ref:`setColor<api_SpriteRender_setColor>` (const Vector4 & color)"
+msgstr ""
+
+#: ../../reference/spriterender.rst:34
+msgid ":ref:`setMaterial<api_SpriteRender_setMaterial>` (Material * material)"
+msgstr ""
+
+#: ../../reference/spriterender.rst:36
+msgid ":ref:`setTexture<api_SpriteRender_setTexture>` (Texture * texture)"
+msgstr ""
+
+#: ../../reference/spriterender.rst:38
+msgid ":ref:`Texture<api_Texture>` *"
+msgstr ""
+
+#: ../../reference/spriterender.rst:38
+msgid ":ref:`texture<api_SpriteRender_texture>` () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:43
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/spriterender.rst:46
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` *"
+msgstr ""
+
+#: ../../reference/spriterender.rst:46
+msgid ":ref:`methods<api_SpriteRender_methods>` ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:48
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` *"
+msgstr ""
+
+#: ../../reference/spriterender.rst:48
+msgid ":ref:`properties<api_SpriteRender_properties>` ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:53
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/spriterender.rst:57
+msgid "**SpriteRender::SpriteRender** ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:59
+msgid "Default constructs an instance of SpriteRender."
+msgstr ""
+
+#: ../../reference/spriterender.rst:65
+msgid "**SpriteRender::~SpriteRender** ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:67
+msgid "Destroys the instance of SpriteRender. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/spriterender.rst:73
+msgid ":ref:`Vector4<api_Vector4>`  **SpriteRender::color** () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:75
+msgid "Returns the color of the sprite to be drawn."
+msgstr ""
+
+#: ../../reference/spriterender.rst:77
+msgid "**See also** setColor()."
+msgstr ""
+
+#: ../../reference/spriterender.rst:83
+msgid ":ref:`Material<api_Material>` * **SpriteRender::material** () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:85
+msgid "Returns an instantiated Material assigned to SpriteRender."
+msgstr ""
+
+#: ../../reference/spriterender.rst:87
+msgid "**See also** setMaterial()."
+msgstr ""
+
+#: ../../reference/spriterender.rst:93
+msgid ":ref:`Mesh<api_Mesh>` * **SpriteRender::mesh** () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:95
+msgid "Returns a sprite mesh which uses to render a sprite."
+msgstr ""
+
+#: ../../reference/spriterender.rst:101
+msgid ""
+":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` * "
+"**SpriteRender::methods** ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:107
+msgid ""
+":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` * "
+"**SpriteRender::properties** ()"
+msgstr ""
+
+#: ../../reference/spriterender.rst:113
+msgid ""
+":ref:`void<api_void>`  **SpriteRender::setColor** "
+"(:ref:`Vector4<api_Vector4>` & *color*)"
+msgstr ""
+
+#: ../../reference/spriterender.rst:115
+msgid "Changes the *color* of the sprite to be drawn."
+msgstr ""
+
+#: ../../reference/spriterender.rst:117
+msgid "**See also** *color*()."
+msgstr ""
+
+#: ../../reference/spriterender.rst:123
+msgid ""
+":ref:`void<api_void>`  **SpriteRender::setMaterial** "
+"(:ref:`Material<api_Material>` * *material*)"
+msgstr ""
+
+#: ../../reference/spriterender.rst:125
+msgid "Creates a new instance of *material* and assigns it."
+msgstr ""
+
+#: ../../reference/spriterender.rst:127
+msgid "**See also** *material*()."
+msgstr ""
+
+#: ../../reference/spriterender.rst:133
+msgid ""
+":ref:`void<api_void>`  **SpriteRender::setTexture** "
+"(:ref:`Texture<api_Texture>` * *texture*)"
+msgstr ""
+
+#: ../../reference/spriterender.rst:135
+msgid "Replaces current *texture* with a new one."
+msgstr ""
+
+#: ../../reference/spriterender.rst:137
+msgid "**See also** *texture*()."
+msgstr ""
+
+#: ../../reference/spriterender.rst:143
+msgid ":ref:`Texture<api_Texture>` * **SpriteRender::texture** () const"
+msgstr ""
+
+#: ../../reference/spriterender.rst:145
+msgid "Returns a sprite texture."
+msgstr ""
+
+#: ../../reference/spriterender.rst:147
+msgid "**See also** setTexture()."
+msgstr ""
+

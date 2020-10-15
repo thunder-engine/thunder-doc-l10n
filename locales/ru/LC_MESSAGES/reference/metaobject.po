@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/metaobject.rst:3
+msgid "MetaObject Class"
+msgstr ""
+
+#: ../../reference/metaobject.rst:5
+msgid "Inherited: None"
+msgstr ""
+
+#: ../../reference/metaobject.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/metaobject.rst:11
+msgid ""
+"The MetaObject provides an interface to retrieve information about Object"
+" at runtime."
+msgstr ""
+
+#: ../../reference/metaobject.rst:13
+msgid ""
+"This class is a part of Object-Introspection-Mechanism. MetaObject "
+"provides information about one particular class inherited from base "
+"Object class. Developers are able to retrieve information about "
+"properties, methods and inheritance chains."
+msgstr ""
+
+#: ../../reference/metaobject.rst:15
+msgid "This class is actively used in Signal-Slot mechanism."
+msgstr ""
+
+#: ../../reference/metaobject.rst:21
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/metaobject.rst:24
+msgid ""
+":ref:`MetaObject<api_MetaObject_MetaObject>` (const char * name, const "
+"MetaObject * super, const MetaObject::Constructor  constructor, const "
+"MetaMethod::Table * methods, const MetaProperty::Table * props)"
+msgstr ""
+
+#: ../../reference/metaobject.rst:26
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/metaobject.rst:26
+msgid ":ref:`canCastTo<api_MetaObject_canCastTo>` (const char * type) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:28
+msgid ":ref:`Object<api_Object>` *"
+msgstr ""
+
+#: ../../reference/metaobject.rst:28
+msgid ":ref:`createInstance<api_MetaObject_createInstance>` () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:30 ../../reference/metaobject.rst:32
+#: ../../reference/metaobject.rst:34 ../../reference/metaobject.rst:36
+#: ../../reference/metaobject.rst:40 ../../reference/metaobject.rst:42
+#: ../../reference/metaobject.rst:48 ../../reference/metaobject.rst:50
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/metaobject.rst:30
+msgid ""
+":ref:`indexOfMethod<api_MetaObject_indexOfMethod>` (const char * "
+"signature) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:32
+msgid ""
+":ref:`indexOfProperty<api_MetaObject_indexOfProperty>` (const char * "
+"name) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:34
+msgid ""
+":ref:`indexOfSignal<api_MetaObject_indexOfSignal>` (const char * "
+"signature) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:36
+msgid ""
+":ref:`indexOfSlot<api_MetaObject_indexOfSlot>` (const char * signature) "
+"const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:38
+msgid ":ref:`MetaMethod<api_MetaMethod>`"
+msgstr ""
+
+#: ../../reference/metaobject.rst:38
+msgid ":ref:`method<api_MetaObject_method>` (int  index) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:40
+msgid ":ref:`methodCount<api_MetaObject_methodCount>` () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:42
+msgid ":ref:`methodOffset<api_MetaObject_methodOffset>` () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:44
+msgid ":ref:`const char<api_const char>` *"
+msgstr ""
+
+#: ../../reference/metaobject.rst:44
+msgid ":ref:`name<api_MetaObject_name>` () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:46
+msgid ":ref:`MetaProperty<api_MetaProperty>`"
+msgstr ""
+
+#: ../../reference/metaobject.rst:46
+msgid ":ref:`property<api_MetaObject_property>` (int  index) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:48
+msgid ":ref:`propertyCount<api_MetaObject_propertyCount>` () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:50
+msgid ":ref:`propertyOffset<api_MetaObject_propertyOffset>` () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:52
+msgid ":ref:`const MetaObject<api_const MetaObject>` *"
+msgstr ""
+
+#: ../../reference/metaobject.rst:52
+msgid ":ref:`super<api_MetaObject_super>` () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:57
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/metaobject.rst:59
+msgid "None"
+msgstr ""
+
+#: ../../reference/metaobject.rst:63
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/metaobject.rst:67
+msgid ""
+"**MetaObject::MetaObject** (:ref:`char<api_char>` * *name*, "
+":ref:`MetaObject<api_MetaObject>` * *super*, "
+":ref:`MetaObject::Constructor<api_MetaObject::Constructor>`  "
+"*constructor*, :ref:`MetaMethod::Table<api_MetaMethod::Table>` * "
+"*methods*, :ref:`MetaProperty::Table<api_MetaProperty::Table>` * *props*)"
+msgstr ""
+
+#: ../../reference/metaobject.rst:69
+msgid ""
+"Constructs MetaObject object for Object with type *name*, inherited from "
+"*super* class and provided *constructor*, *methods* and *props*."
+msgstr ""
+
+#: ../../reference/metaobject.rst:75
+msgid ""
+":ref:`bool<api_bool>`  **MetaObject::canCastTo** (:ref:`char<api_char>` *"
+" *type*) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:77
+msgid "Checks the abillity to cast the current object to *type*."
+msgstr ""
+
+#: ../../reference/metaobject.rst:79
+msgid ""
+"**Note:** This method tries to go through inheritance to find a common "
+"parent class."
+msgstr ""
+
+#: ../../reference/metaobject.rst:81
+msgid "Returns true if object can be cast to *type*; otherwise returns false."
+msgstr ""
+
+#: ../../reference/metaobject.rst:87
+msgid ":ref:`Object<api_Object>` * **MetaObject::createInstance** () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:89
+msgid "Constructs and return a new instance of associated class."
+msgstr ""
+
+#: ../../reference/metaobject.rst:95
+msgid ""
+":ref:`int<api_int>`  **MetaObject::indexOfMethod** (:ref:`char<api_char>`"
+" * *signature*) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:97
+msgid ""
+"Returns index of class method by provided *signature*; otherwise returns "
+"-1."
+msgstr ""
+
+#: ../../reference/metaobject.rst:99 ../../reference/metaobject.rst:109
+#: ../../reference/metaobject.rst:119 ../../reference/metaobject.rst:129
+#: ../../reference/metaobject.rst:139 ../../reference/metaobject.rst:173
+msgid "**Note:** This method looks through class hierarchy."
+msgstr ""
+
+#: ../../reference/metaobject.rst:105
+msgid ""
+":ref:`int<api_int>`  **MetaObject::indexOfProperty** "
+"(:ref:`char<api_char>` * *name*) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:107
+msgid "Returns index of class property by provided *name*; otherwise returns -1."
+msgstr ""
+
+#: ../../reference/metaobject.rst:115
+msgid ""
+":ref:`int<api_int>`  **MetaObject::indexOfSignal** (:ref:`char<api_char>`"
+" * *signature*) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:117
+msgid ""
+"Returns index of class signal by provided *signature*; otherwise returns "
+"-1."
+msgstr ""
+
+#: ../../reference/metaobject.rst:125
+msgid ""
+":ref:`int<api_int>`  **MetaObject::indexOfSlot** (:ref:`char<api_char>` *"
+" *signature*) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:127
+msgid "Returns index of class slot by provided *signature*; otherwise returns -1."
+msgstr ""
+
+#: ../../reference/metaobject.rst:135
+msgid ""
+":ref:`MetaMethod<api_MetaMethod>`  **MetaObject::method** "
+"(:ref:`int<api_int>`  *index*) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:137
+msgid "Returns MetaMethod object by provided *index* of method."
+msgstr ""
+
+#: ../../reference/metaobject.rst:145
+msgid ":ref:`int<api_int>`  **MetaObject::methodCount** () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:147
+msgid ""
+"Returns the sum of methods for the current class and parent classes. It's"
+" includes signals and slots."
+msgstr ""
+
+#: ../../reference/metaobject.rst:153
+msgid ":ref:`int<api_int>`  **MetaObject::methodOffset** () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:155
+msgid ""
+"Returns the first index of method for current class. The offset is the "
+"sum of all methods in parent classes."
+msgstr ""
+
+#: ../../reference/metaobject.rst:161
+msgid ":ref:`const char<api_const char>` * **MetaObject::name** () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:163
+msgid "Returns the name of the object type."
+msgstr ""
+
+#: ../../reference/metaobject.rst:169
+msgid ""
+":ref:`MetaProperty<api_MetaProperty>`  **MetaObject::property** "
+"(:ref:`int<api_int>`  *index*) const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:171
+msgid "Returns MetaProperty object by provided *index* of property."
+msgstr ""
+
+#: ../../reference/metaobject.rst:179
+msgid ":ref:`int<api_int>`  **MetaObject::propertyCount** () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:181
+msgid "Returns the sum of properties for the current class and parent classes."
+msgstr ""
+
+#: ../../reference/metaobject.rst:187
+msgid ":ref:`int<api_int>`  **MetaObject::propertyOffset** () const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:189
+msgid ""
+"Returns the first index of property for current class. The offset is the "
+"sum of all properties in parent classes."
+msgstr ""
+
+#: ../../reference/metaobject.rst:195
+msgid ""
+":ref:`const MetaObject<api_const MetaObject>` * **MetaObject::super** () "
+"const"
+msgstr ""
+
+#: ../../reference/metaobject.rst:197
+msgid "Returns an introspection object for parent class."
+msgstr ""
+

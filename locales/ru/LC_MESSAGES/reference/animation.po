@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/animation.rst:3
+msgid "Animation Class"
+msgstr ""
+
+#: ../../reference/animation.rst:5
+msgid "Inherited: :ref:`Object<api_Object>`"
+msgstr ""
+
+#: ../../reference/animation.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/animation.rst:11
+msgid "The Animation class provides base class interface for animations."
+msgstr ""
+
+#: ../../reference/animation.rst:13
+msgid ""
+"The Animation class contain basic state machine to control animation "
+"processing."
+msgstr ""
+
+#: ../../reference/animation.rst:19
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/animation.rst:22
+msgid ":ref:`Animation<api_Animation_Animation>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:24
+msgid ":ref:`~Animation<api_Animation_~Animation>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:26 ../../reference/animation.rst:28
+#: ../../reference/animation.rst:30 ../../reference/animation.rst:34
+#: ../../reference/animation.rst:36 ../../reference/animation.rst:38
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/animation.rst:26
+msgid ":ref:`currentLoop<api_Animation_currentLoop>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:28
+msgid ":ref:`currentTime<api_Animation_currentTime>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:30
+msgid ":ref:`duration<api_Animation_duration>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:32
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/animation.rst:32
+msgid ":ref:`isValid<api_Animation_isValid>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:34
+msgid ":ref:`loopCount<api_Animation_loopCount>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:36
+msgid ":ref:`loopDuration<api_Animation_loopDuration>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:38
+msgid ":ref:`loopTime<api_Animation_loopTime>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:40 ../../reference/animation.rst:42
+#: ../../reference/animation.rst:44 ../../reference/animation.rst:46
+#: ../../reference/animation.rst:48 ../../reference/animation.rst:50
+#: ../../reference/animation.rst:54
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/animation.rst:40
+msgid ":ref:`pause<api_Animation_pause>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:42
+msgid ":ref:`resume<api_Animation_resume>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:44
+msgid ":ref:`setCurrentTime<api_Animation_setCurrentTime>` (int  msecs)"
+msgstr ""
+
+#: ../../reference/animation.rst:46
+msgid ":ref:`setLoopCount<api_Animation_setLoopCount>` (int  loops)"
+msgstr ""
+
+#: ../../reference/animation.rst:48
+msgid ":ref:`setValid<api_Animation_setValid>` (bool  valid)"
+msgstr ""
+
+#: ../../reference/animation.rst:50
+msgid ":ref:`start<api_Animation_start>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:52
+msgid ":ref:`Animation::State<api_Animation::State>`"
+msgstr ""
+
+#: ../../reference/animation.rst:52
+msgid ":ref:`state<api_Animation_state>` () const"
+msgstr ""
+
+#: ../../reference/animation.rst:54
+msgid ":ref:`stop<api_Animation_stop>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:59
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/animation.rst:62
+msgid ":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` *"
+msgstr ""
+
+#: ../../reference/animation.rst:62
+msgid ":ref:`methods<api_Animation_methods>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:64
+msgid ":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` *"
+msgstr ""
+
+#: ../../reference/animation.rst:64
+msgid ":ref:`properties<api_Animation_properties>` ()"
+msgstr ""
+
+#: ../../reference/animation.rst:69
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/animation.rst:73
+msgid "**Animation::Animation** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:75
+msgid "Default constructs an instance of Animation."
+msgstr ""
+
+#: ../../reference/animation.rst:81
+msgid "**Animation::~Animation** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:83
+msgid "Destroys the instance of Animation. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/animation.rst:89
+msgid ":ref:`int<api_int>`  **Animation::currentLoop** () const"
+msgstr ""
+
+#: ../../reference/animation.rst:91
+msgid "Returns the number of repetitions of animation which already has played."
+msgstr ""
+
+#: ../../reference/animation.rst:97
+msgid ":ref:`int<api_int>`  **Animation::currentTime** () const"
+msgstr ""
+
+#: ../../reference/animation.rst:99
+msgid "Returns the current time (in milliseconds) in scope of current loop."
+msgstr ""
+
+#: ../../reference/animation.rst:101
+msgid "**See also** setCurrentTime()."
+msgstr ""
+
+#: ../../reference/animation.rst:107
+msgid ":ref:`int<api_int>`  **Animation::duration** () const"
+msgstr ""
+
+#: ../../reference/animation.rst:109
+msgid ""
+"Returns the duration (in milliseconds) in total as sum of durations for "
+"all loops."
+msgstr ""
+
+#: ../../reference/animation.rst:111
+msgid "**Note:** Returns -1 in case of infinite animation."
+msgstr ""
+
+#: ../../reference/animation.rst:117
+msgid ":ref:`bool<api_bool>`  **Animation::isValid** () const"
+msgstr ""
+
+#: ../../reference/animation.rst:119
+msgid "Returns true in case of animation is valid; otherwise returns false."
+msgstr ""
+
+#: ../../reference/animation.rst:125
+msgid ":ref:`int<api_int>`  **Animation::loopCount** () const"
+msgstr ""
+
+#: ../../reference/animation.rst:127
+msgid ""
+"Returns the number of repetitions of animation; -1 in case of infinite "
+"animation."
+msgstr ""
+
+#: ../../reference/animation.rst:129
+msgid "**See also** setLoopCount()."
+msgstr ""
+
+#: ../../reference/animation.rst:135
+msgid ":ref:`int<api_int>`  **Animation::loopDuration** () const"
+msgstr ""
+
+#: ../../reference/animation.rst:137
+msgid "Returns the duration of the animation (in milliseconds)."
+msgstr ""
+
+#: ../../reference/animation.rst:143
+msgid ":ref:`int<api_int>`  **Animation::loopTime** () const"
+msgstr ""
+
+#: ../../reference/animation.rst:145
+msgid "Returns the current time for the current loop (in milliseconds)."
+msgstr ""
+
+#: ../../reference/animation.rst:151
+msgid ""
+":ref:`const MetaMethod::Table<api_const MetaMethod::Table>` * "
+"**Animation::methods** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:157
+msgid ":ref:`void<api_void>`  **Animation::pause** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:159 ../../reference/animation.rst:231
+msgid "Stops the animation."
+msgstr ""
+
+#: ../../reference/animation.rst:161
+msgid "**Note:** Animation CAN be continued by resume()."
+msgstr ""
+
+#: ../../reference/animation.rst:167
+msgid ""
+":ref:`const MetaProperty::Table<api_const MetaProperty::Table>` * "
+"**Animation::properties** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:173
+msgid ":ref:`void<api_void>`  **Animation::resume** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:175
+msgid "Continues the animation which was paused earlier."
+msgstr ""
+
+#: ../../reference/animation.rst:181
+msgid ""
+":ref:`void<api_void>`  **Animation::setCurrentTime** (:ref:`int<api_int>`"
+"  *msecs*)"
+msgstr ""
+
+#: ../../reference/animation.rst:183
+msgid "Sets the new position of animation to provided *msecs* position."
+msgstr ""
+
+#: ../../reference/animation.rst:185
+msgid ""
+"**Note:** If new position placed outside of current loop; Then current "
+"loop will be changed to appropriate."
+msgstr ""
+
+#: ../../reference/animation.rst:187
+msgid "**See also** currentTime()."
+msgstr ""
+
+#: ../../reference/animation.rst:193
+msgid ""
+":ref:`void<api_void>`  **Animation::setLoopCount** (:ref:`int<api_int>`  "
+"*loops*)"
+msgstr ""
+
+#: ../../reference/animation.rst:195
+msgid "Sets the new number of *loops* of animation."
+msgstr ""
+
+#: ../../reference/animation.rst:197
+msgid "**See also** loopCount()."
+msgstr ""
+
+#: ../../reference/animation.rst:203
+msgid ""
+":ref:`void<api_void>`  **Animation::setValid** (:ref:`bool<api_bool>`  "
+"*valid*)"
+msgstr ""
+
+#: ../../reference/animation.rst:205
+msgid ""
+"Sets the *valid* state of animation. The invalid animations will not "
+"affect anything."
+msgstr ""
+
+#: ../../reference/animation.rst:207
+msgid "**See also** isValid()."
+msgstr ""
+
+#: ../../reference/animation.rst:213
+msgid ":ref:`void<api_void>`  **Animation::start** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:215
+msgid "Starts the animation from the beginning."
+msgstr ""
+
+#: ../../reference/animation.rst:221
+msgid ""
+":ref:`Animation::State<api_Animation::State>`  **Animation::state** () "
+"const"
+msgstr ""
+
+#: ../../reference/animation.rst:223
+msgid "Returns the current state of animation."
+msgstr ""
+
+#: ../../reference/animation.rst:229
+msgid ":ref:`void<api_void>`  **Animation::stop** ()"
+msgstr ""
+
+#: ../../reference/animation.rst:233
+msgid "**Note:** Animation can't be continued."
+msgstr ""
+

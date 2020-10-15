@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Evgeniy Prikazchikov
+# This file is distributed under the same license as the Thunder Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunder Engine \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 12:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../reference/threadpool.rst:3
+msgid "ThreadPool Class"
+msgstr ""
+
+#: ../../reference/threadpool.rst:5
+msgid "Inherited: :ref:`Object<api_Object>`"
+msgstr ""
+
+#: ../../reference/threadpool.rst:9
+msgid "Description"
+msgstr ""
+
+#: ../../reference/threadpool.rst:11
+msgid "The ThreadPool class manages a collection of threads."
+msgstr ""
+
+#: ../../reference/threadpool.rst:17
+msgid "Public Methods"
+msgstr ""
+
+#: ../../reference/threadpool.rst:20
+msgid ":ref:`ThreadPool<api_ThreadPool_ThreadPool>` ()"
+msgstr ""
+
+#: ../../reference/threadpool.rst:22
+msgid ":ref:`~ThreadPool<api_ThreadPool_~ThreadPool>` ()"
+msgstr ""
+
+#: ../../reference/threadpool.rst:24 ../../reference/threadpool.rst:38
+msgid ":ref:`int<api_int>`"
+msgstr ""
+
+#: ../../reference/threadpool.rst:24
+msgid ":ref:`maxThreads<api_ThreadPool_maxThreads>` () const"
+msgstr ""
+
+#: ../../reference/threadpool.rst:26 ../../reference/threadpool.rst:28
+msgid ":ref:`void<api_void>`"
+msgstr ""
+
+#: ../../reference/threadpool.rst:26
+msgid ":ref:`setMaxThreads<api_ThreadPool_setMaxThreads>` (int  value)"
+msgstr ""
+
+#: ../../reference/threadpool.rst:28
+msgid ":ref:`start<api_ThreadPool_start>` (Object & object)"
+msgstr ""
+
+#: ../../reference/threadpool.rst:30
+msgid ":ref:`bool<api_bool>`"
+msgstr ""
+
+#: ../../reference/threadpool.rst:30
+msgid ":ref:`waitForDone<api_ThreadPool_waitForDone>` (int  msecs = -1)"
+msgstr ""
+
+#: ../../reference/threadpool.rst:35
+msgid "Static Methods"
+msgstr ""
+
+#: ../../reference/threadpool.rst:38
+msgid ":ref:`optimalThreadCount<api_ThreadPool_optimalThreadCount>` ()"
+msgstr ""
+
+#: ../../reference/threadpool.rst:43
+msgid "Methods Description"
+msgstr ""
+
+#: ../../reference/threadpool.rst:47
+msgid "**ThreadPool::ThreadPool** ()"
+msgstr ""
+
+#: ../../reference/threadpool.rst:49
+msgid "Default constructs an instance of ThreadPool."
+msgstr ""
+
+#: ../../reference/threadpool.rst:55
+msgid "**ThreadPool::~ThreadPool** ()"
+msgstr ""
+
+#: ../../reference/threadpool.rst:57
+msgid "Destroys the instance of ThreadPool. The destructor is virtual."
+msgstr ""
+
+#: ../../reference/threadpool.rst:63
+msgid ":ref:`int<api_int>`  **ThreadPool::maxThreads** () const"
+msgstr ""
+
+#: ../../reference/threadpool.rst:65
+msgid "**See also** setMaxThreads()."
+msgstr ""
+
+#: ../../reference/threadpool.rst:71
+msgid ":ref:`int<api_int>`  **ThreadPool::optimalThreadCount** ()"
+msgstr ""
+
+#: ../../reference/threadpool.rst:77
+msgid ""
+":ref:`void<api_void>`  **ThreadPool::setMaxThreads** (:ref:`int<api_int>`"
+"  *value*)"
+msgstr ""
+
+#: ../../reference/threadpool.rst:79
+msgid "**See also** maxThreads()."
+msgstr ""
+
+#: ../../reference/threadpool.rst:85
+msgid ""
+":ref:`void<api_void>`  **ThreadPool::start** (:ref:`Object<api_Object>` &"
+" *object*)"
+msgstr ""
+
+#: ../../reference/threadpool.rst:91
+msgid ""
+":ref:`bool<api_bool>`  **ThreadPool::waitForDone** (:ref:`int<api_int>`  "
+"*msecs* = -1)"
+msgstr ""
+
